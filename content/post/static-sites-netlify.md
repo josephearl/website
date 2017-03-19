@@ -15,3 +15,5 @@ Netlify does the same job, but also supports a bunch more static site generators
 Enabling HTTPS is as simple as clicking a button and Netlify manages renewing your SSL certificates for you.
 
 They also provide a global CDN to ensure your content gets to your users as quickly as possible.
+
+You can view the [source for this site](https://github.com/josephearl/website) on GitHub.
