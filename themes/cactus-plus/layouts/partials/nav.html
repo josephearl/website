@@ -9,11 +9,11 @@
 	{{ end }}
 
 	{{ if ne $url "tags/" }}
-		<a href='{{ .Site.BaseURL }}tags'>{{ with .Site.Params.about }}{{ . }}{{ else }}Tags{{ end }}</a>
+		<a href='{{ .Site.BaseURL }}tags'>{{ with .Site.Params.tags }}{{ . }}{{ else }}Tags{{ end }}</a>
 	{{ end }}
 
 	{{ if ne $url "about/" }}
-		<a href='{{ .Site.BaseURL }}about'>{{ with .Site.Params.about }}{{ . }}{{ else }}About{{ end }}</a>
+		<a href='{{ with .Site.Params.aboutLink }}{{ . }}{{ else }}{{ .Site.BaseURL }}about{{ end }}'>{{ with .Site.Params.about }}{{ . }}{{ else }}About{{ end }}</a>
 	{{ end }}
 
 	{{ range $key, $val := .Site.Params.Links }}

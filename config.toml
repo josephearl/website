@@ -10,6 +10,9 @@ theme = "cactus-plus"
     twitter = "josephearl"
     enableRSS = false
 
+    # Nav
+    aboutLink = "http://about.me/josephearl"
+
     # Disqus commenting
     enableDisqus = false
 
