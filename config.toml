@@ -1,4 +1,32 @@
 languageCode = "en-us"
 title = "My New Hugo Site"
-baseURL = "http://example.org/"
+baseURL = "https://www.josephearl.co.uk/"
 theme = "cactus-plus"
+
+[params]
+    name = "Joseph Earl"
+    description = "Blog Description"
+    bio = "Chemistry and code"
+    twitter = "josephearl"
+    enableRSS = false
+
+    # Disqus commenting
+    enableDisqus = false
+
+    # Duoshuo commenting
+    enableDuoshuo = false
+
+    # GitHub issues
+    enableGithubIssuesTips = false
+
+    # Use description as title in single page, posts page and tags page.
+    useDescriptionAsTitle = false
+
+    # Google analytics
+    enableGoogleAnalytics = false
+
+    # Baidu analytics
+    enableBaiduAnalytics = false
+
+	# Choose a font for the social icons in the footer, either "mono-social" or "font-awesome"
+    iconFont = "font-awesome"
