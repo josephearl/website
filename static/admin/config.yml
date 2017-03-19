@@ -1,0 +1,10 @@
+# Save changes to GitHub
+backend:
+  name: github
+  repo: josephearl/website
+  branch: master
+# Use the Editorial workflow - https://github.com/netlify/netlify-cms/blob/master/docs/editorial_workflow.md
+publish_mode: editorial_workflow
+# Save image uploads to static/img
+media_folder: "static/img"
+public_folder: "/img"
