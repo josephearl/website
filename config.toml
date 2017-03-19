@@ -1,12 +1,12 @@
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Joseph Earl"
 baseURL = "https://www.josephearl.co.uk/"
 theme = "cactus-plus"
 
 [params]
     name = "Joseph Earl"
-    description = "Blog Description"
-    bio = "Chemistry and code"
+    description = "Joseph Earl`s Website"
+    bio = "Senior Technologist @ThoughtWorks"
     twitter = "josephearl"
     enableRSS = false
 
