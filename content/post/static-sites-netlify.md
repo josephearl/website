@@ -1,11 +1,10 @@
-+++
-categories = []
-tags = ["netlify", "static-sites"]
-description = ""
-title = "Hosting your static site with Netlify"
-date = "2017-03-19T19:50:36Z"
-
-+++
+---
+categories: []
+tags: ["netlify", "static-sites"]
+description: ""
+title: "Hosting your static site with Netlify"
+date: "2017-03-19T19:50:36Z"
+---
 
 This site is hosted with [Netlify](http://netlify.com). Why?
 
