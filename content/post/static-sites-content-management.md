@@ -2,7 +2,7 @@
 categories: []
 tags: ["static-sites", "cms", "netlify"]
 description: ""
-title: Content management workflows for static sites
+title: "Content management workflows for static sites"
 date: "2017-03-21T23:03:29Z"
 ---
 
