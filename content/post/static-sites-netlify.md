@@ -1,6 +1,6 @@
 ---
 categories: []
-tags: ["netlify", "static-sites"]
+tags: ["static-sites", "netlify"]
 description: ""
 title: "Hosting your static site with Netlify"
 date: "2017-03-19T19:50:36Z"
