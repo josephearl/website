@@ -1,6 +1,6 @@
-+++
-title = ""
-description = ""
-tags = ["x"]
-categories = ["y"]
-+++
+---
+title: ""
+description: ""
+tags: ["x"]
+categories: ["y"]
+---
