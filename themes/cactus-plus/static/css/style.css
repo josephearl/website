@@ -868,7 +868,20 @@ code {
 
 
 /**
- * tags page
+ * Table of content
+ */
+ 
+#toc ul {
+    list-style-type: none;
+}
+
+#toc ul ul {
+    list-style-type: disc; 
+}
+
+
+/**
+ * Tags page
  */
 
 #wrapper.tags {
