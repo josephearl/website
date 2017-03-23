@@ -2,10 +2,8 @@
 <body>
 {{ partial "nav.html" . }}
 {{ partial "profile.html" . }}
-
 <section id="wrapper" class="home">
     {{ .Content }}
-
     {{ if .Site.Params.enableDisqus }}
         {{ partial "disqus.html" . }}
     {{ end }}
