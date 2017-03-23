@@ -22,4 +22,4 @@ Netlify CMS relies on the GitHub API for managing files so you'll need to have y
 
 Adding Netlify CMS to your static site is as a simple as [adding 2 files to your static content directory](https://github.com/netlify/netlify-cms/blob/master/docs/quick-start.md#app-file-structure) and tweaking the configuration for your site.
 
-[Forestry.io](https://forestry.io) is another alternative very similar to Netlify CMS but provided as a service so requires no modification to your existing site. It works with a greater variety of content hosts such as Amazon S3, Bitbucket and Fastly as well as GitHub and supports Jekyll and Hugo static site generators.
+[Forestry.io](https://forestry.io) is another alternative very similar to Netlify CMS but provided as a service so requires no modification to your existing site. It works with a greater variety of hosting services such as Amazon S3, Bitbucket and Fastly as well as GitHub and supports Jekyll and Hugo static site generators.
