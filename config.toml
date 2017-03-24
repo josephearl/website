@@ -29,11 +29,5 @@ theme = "cactus-plus"
     # Use description as title in single page, posts page and tags page.
     useDescriptionAsTitle = false
 
-    # Google analytics
-    enableGoogleAnalytics = false
-
     # Baidu analytics
     enableBaiduAnalytics = false
-
-	# Choose a font for the social icons in the footer, either "mono-social" or "font-awesome"
-    iconFont = "font-awesome"
