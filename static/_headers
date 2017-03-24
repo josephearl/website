@@ -3,3 +3,5 @@
     # Block site from being framed with X-Frame-Options and CSP
     Content-Security-Policy: frame-ancestors 'none'
     X-Frame-Options: DENY
+    # Prevent browsers from incorrectly detecting non-scripts as scripts
+    X-Content-Type-Options: nosniff
