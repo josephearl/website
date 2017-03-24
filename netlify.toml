@@ -1,4 +1,5 @@
 # Global settings applied to the whole site.
 [build]
+    base = ""
     publish = "public"
     command = "hugo_0.19"
