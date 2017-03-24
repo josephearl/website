@@ -11,4 +11,4 @@
     # Load scripts from /js/ and and dynamically added scripts if their src is /js/
     # Load stylesheets from /css/
     # Load fonts from /fonts/
-    Content-Security-Policy: default-src https:; object-src 'none'; img-src /images/; script-src /js/; style-src /css/; font-src /fonts/;
+    Content-Security-Policy: default-src 'none'; object-src 'none'; img-src 'self'; script-src 'self'; style-src 'self'; font-src 'self';
