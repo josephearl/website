@@ -5,10 +5,7 @@
     X-Frame-Options: DENY
     # Prevent browsers from incorrectly detecting non-scripts as scripts
     X-Content-Type-Options: nosniff
-    # Only allow loading of resources (images, fonts, scripts, etc.) over https
+    # Don't load any resource type not explicitly enabled
     # Disable plugins like Flash or Silverlight
-    # Load images from /images/
-    # Load scripts from /js/ and and dynamically added scripts if their src is /js/
-    # Load stylesheets from /css/
-    # Load fonts from /fonts/
+    # Load images, scripts, stylesheets and fonts from self
     Content-Security-Policy: default-src 'none'; object-src 'none'; img-src 'self'; script-src 'self'; style-src 'self'; font-src 'self';
