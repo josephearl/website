@@ -1,7 +1,7 @@
-<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+<script src="{{ .Site.BaseURL }}js/jquery-2.2.4.js"></script>
 <script src="{{ .Site.BaseURL }}js/main.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/highlight.min.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
+<script src="{{ .Site.BaseURL }}js/highlight-9.7.0.js"></script>
+<script src="{{ .Site.BaseURL }}js/js.js"></script>
 
 {{ range .Site.Params.customJS }}
 <script src="{{ $.Site.BaseURL }}{{ . }}"></script>
@@ -12,14 +12,5 @@
 {{ end }}
 
 {{ if .Site.Params.enableBaiduAnalytics }}
-<script>
-var baiduAnalytics = '{{ .Site.Params.baiduAnalytics }}';
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?" + baiduAnalytics;
-  var s = document.getElementsByTagName("script")[0];
-  s.parentNode.insertBefore(hm, s);
-})();
-</script>
+<script src="{{ .Site.BaseURL }}js/baidu.js" data-id="{{ .Site.Params.baiduAnalytics }}" data-name="baiduAnalytics"></script>
 {{ end }}
