@@ -1,5 +1,3 @@
-# All paths
 /*
-    # Block site from being framed with X-Frame-Options and CSP
-    Content-Security-Policy: frame-ancestors 'none'
-    X-Frame-Options: DENY
+  Content-Security-Policy: frame-ancestors 'none'
+  X-Frame-Options: DENY
