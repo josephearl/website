@@ -9,4 +9,4 @@
     # Disable plugins like Flash or Silverlight
     # Load images, scripts, stylesheets and fonts from self
     # Report to report-uri.io
-    Content-Security-Policy: default-src 'none'; object-src 'none'; img-src 'self'; script-src 'self'; style-src 'self' 'sha256-e9aac53841eb355b27f994b1d55283824749c30b1787964b6ab264adda164e47'; font-src 'self'; report-uri https://josephearl.report-uri.io/r/default/csp/enforce;
+    Content-Security-Policy: default-src 'none'; object-src 'none'; img-src 'self'; script-src 'self'; style-src 'self' 'sha256-6arFOEHrNVsn+ZSx1VKDgkdJwwsXh5ZLarJkrdoWTkc='; font-src 'self'; report-uri https://josephearl.report-uri.io/r/default/csp/enforce;
