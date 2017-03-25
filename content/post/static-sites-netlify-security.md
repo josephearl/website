@@ -8,7 +8,7 @@ tags: ["static-sites", "security", "netlify"]
 
 A colleague at ThoughtWorks, Karl Stony, recently brought [Mozilla Observatory](https://observatory.mozilla.org/) to my attention through a post on the internal mailing list. It aggregates a number of tools and scans your site for a wide variety of security configuration issues.
 
-I had previously enabled [forcing SSL](https://www.netlify.com/docs/ssl/#forcing-ssl) for my site in Netlify, and my site is static, so I was feeling pretty confident as I prepared to click the button to scan my site. 20 seconds or so later to my surprise I was greeted with the impressive grade of a ... **D**. I can't go home with that!
+I had previously enabled [forcing SSL](https://www.netlify.com/docs/ssl/#forcing-ssl) for my site in Netlify and my site is static and very simple, so I was feeling pretty confident as I prepared to click the button to scan my site. 20 seconds or so later to my surprise I was greeted with the impressive grade of a ... **D**. I can't go home with that!
 
 "What sort of security issues can a static site have?" I thought. Luckily Observatory breaks the results down for you and provides you with a suggestion for the best item to tackle next.
 
