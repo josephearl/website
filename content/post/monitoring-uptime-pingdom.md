@@ -2,7 +2,7 @@
 categories: []
 tags: ["monitoring", "pingdom"]
 description: ""
-title: "Monitoring your sites uptime with Pingdom"
+title: "Monitoring your site’s uptime with Pingdom"
 date: "2017-03-27T16:59:27Z"
 ---
 
