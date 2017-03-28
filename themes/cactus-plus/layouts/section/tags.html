@@ -2,7 +2,7 @@
     <body>
        {{ partial "nav.html" . }}
        {{ partial "profile.html" . }}
-        <section id="wrapper" class="tags">
+        <section class="wrapper tags">
             <div class="page-tags" id="tags">
                 {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
                  <span class="tags">
@@ -15,5 +15,6 @@
         </section>
         {{ partial "js.html" . }}
         {{ partial "tagcloud.html" . }}
+        {{ partial "search.html" . }}
     </body>
 </html>
