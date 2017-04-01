@@ -1,16 +1,19 @@
 	{{ partial "head.html" . }}
 	<body>
-    {{ partial "nav.html" . }}
+        <div id="main">
+            {{ partial "nav.html" . }}
 
-    {{ partial "profile.html" . }}
+            {{ partial "profile.html" . }}
 
-    <section class="wrapper home">
-        {{ partial "post-list.html"  . }}
-        {{ partial "pagination.html" . }}
-        {{ partial "footer.html"     . }}
-    </section>
+            <section class="wrapper home">
+                {{ partial "post-list.html"  . }}
+                {{ partial "pagination.html" . }}
+                {{ partial "footer.html"     . }}
+            </section>
 
-    {{ partial "js.html" . }}
-    {{ partial "search.html" . }}
+            {{ partial "js.html" . }}
+        </div>
+
+        {{ partial "search.html" . }}
     </body>
 </html>

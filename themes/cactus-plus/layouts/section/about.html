@@ -1,21 +1,24 @@
 {{ partial "head.html" . }}
 <body>
-{{ partial "nav.html" . }}
-{{ partial "profile.html" . }}
-<section class="wrapper home">
-    {{ .Content }}
-    {{ if .Site.Params.enableDisqus }}
-        {{ partial "disqus.html" . }}
-    {{ end }}
+    <div id="main">
+        {{ partial "nav.html" . }}
+        {{ partial "profile.html" . }}
+        <section class="wrapper home">
+            {{ .Content }}
+            {{ if .Site.Params.enableDisqus }}
+                {{ partial "disqus.html" . }}
+            {{ end }}
 
-    {{ if .Site.Params.enableDuoshuo }}
-        {{ partial "duoshuo.html" . }}
-    {{ end }}
+            {{ if .Site.Params.enableDuoshuo }}
+                {{ partial "duoshuo.html" . }}
+            {{ end }}
 
-    {{ partial "footer.html" . }}
-</section>
+            {{ partial "footer.html" . }}
+        </section>
 
-{{ partial "js.html" . }}
-{{ partial "search.html" . }}
+        {{ partial "js.html" . }}
+    </div>
+
+    {{ partial "search.html" . }}
 </body>
 </html>

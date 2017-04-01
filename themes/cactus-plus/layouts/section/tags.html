@@ -1,20 +1,24 @@
     {{ partial "head.html" . }}
     <body>
-       {{ partial "nav.html" . }}
-       {{ partial "profile.html" . }}
-        <section class="wrapper tags">
-            <div class="page-tags" id="tags">
-                {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
-                 <span class="tags">
-                     <a href="/tags/{{ $name | urlize }}" rel="{{ len $taxonomy }}">{{ $name }}({{ len $taxonomy }})</a>
-                 </span>
-                {{ end }}
-            </div>
+        <div id="main">
+            {{ partial "nav.html" . }}
+            {{ partial "profile.html" . }}
+            <section class="wrapper tags">
+                <div class="page-tags" id="tags">
+                    {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+                    <span class="tags">
+                        <a href="/tags/{{ $name | urlize }}" rel="{{ len $taxonomy }}">{{ $name }}({{ len $taxonomy }})</a>
+                    </span>
+                    {{ end }}
+                </div>
 
-            {{ partial "footer.html" . }}
-        </section>
-        {{ partial "js.html" . }}
-        {{ partial "tagcloud.html" . }}
+                {{ partial "footer.html" . }}
+            </section>
+
+            {{ partial "js.html" . }}
+            {{ partial "tagcloud.html" . }}
+        </div>
+
         {{ partial "search.html" . }}
     </body>
 </html>
