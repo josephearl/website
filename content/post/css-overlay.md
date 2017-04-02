@@ -57,5 +57,3 @@ html, body {
 I don't particularly like having the extra `.overlay-content` div or having to wrap my content in a div, but it's probably the best I'm going to get with CSS for now.
 
 You can see the overlay in action by using the search functionality on this site.
-
-Edit: added `-webkit-overflow-scroll: touch` for smooth scrolling on mobile Safari.
