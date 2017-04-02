@@ -18,9 +18,7 @@ Adding `z-index:1` to the overlay style gave me the perfect solution for my use-
 
 ```html
 <body>
-  <div id="main">
-    lengthy content here
-  </div>
+  <div id="main"></div>
   <div id="overlay">
     <div class="overlay-content"></div>
   </div>
@@ -37,6 +35,7 @@ html, body {
 #main {
   height: 100%;
   overflow: auto;
+  -webkit-overflow-scroll: touch;
 }
                
 #overlay {
@@ -57,4 +56,6 @@ html, body {
 
 I don't particularly like having the extra `.overlay-content` div or having to wrap my content in a div, but it's probably the best I'm going to get with CSS for now.
 
-PS: you can see the overlay in action by using the search functionality on this site.
+You can see the overlay in action by using the search functionality on this site.
+
+Edit: added `-webkit-overflow-scroll: touch` for smooth scrolling on mobile Safari.
