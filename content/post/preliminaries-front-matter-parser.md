@@ -42,6 +42,6 @@ preliminaries.test('+++\nabc = "xyz"\n+++');
 preliminaries.test('~~~\nabc = "xyz"\n~~~');
 ```
 
-The core `preliminaries` library has zero dependencies, all formats except is JSON are optional and provided via plugins.
+The core `preliminaries` library has zero dependencies, all supported formats except JSON are optional and are provided via plugins.
 
 Install `preliminaries` using [npm](https://www.npmjs.com/package/preliminaries) or [check it out on GitHub](https://github.com/josephearl/preliminaries).
