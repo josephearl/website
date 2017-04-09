@@ -1,7 +1,5 @@
 <footer id="footer">
-    {{ if .Site.Social }}
-        {{ partial "social.html" . }}
-    {{ end }}
+    {{ partial "social.html" . }}
     <p class="small">
     {{ with .Site.Params.copyright }}
         {{ . | markdownify }}
