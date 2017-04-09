@@ -28,9 +28,9 @@ preliminaries.parse('~~~\nname: Joseph\n~~~\nContent', {delims: '~~~', lang: 'ya
 You can also stringify a JavaScript object and a content string back out:
 
 ```js
-preliminaries.stringify('Content', {name: 'Joseph'}, {lang: 'yaml'})
-preliminaries.stringify('Content', {name: 'Joseph'}, {lang: 'toml'})
-preliminaries.stringify('Content', {name: 'Joseph'}, {lang: 'json'})
+preliminaries.stringify('Content', {name: 'Joseph'}, {lang: 'yaml'});
+preliminaries.stringify('Content', {name: 'Joseph'}, {lang: 'toml'});
+preliminaries.stringify('Content', {name: 'Joseph'}, {lang: 'json'});
 ```
 
 Or test if a string contains front matter:
