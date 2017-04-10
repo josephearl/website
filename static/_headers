@@ -11,4 +11,4 @@
     # Report to report-uri.io
     Content-Security-Policy: default-src 'self'; object-src 'none'; img-src 'self'; script-src 'self'; style-src 'self'; font-src 'self'; worker-src 'self'; report-uri https://josephearl.report-uri.io/r/default/csp/enforce; connect-src 'self';
     # Allow service worker to access all site
-    Service-Worker-Allowed: '/'
+    Service-Worker-Allowed: /
