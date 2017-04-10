@@ -8,7 +8,7 @@ title: "100 miles an hour with critical CSS"
 
 In [a previous post](/post/static-sites-performance/) I covered my efforts to improve the PageSpeed ranking of my site.
 
-Earlier today I finally achieved a perfect 100/100 PageSpeed score on Desktop. 
+Today I achieved a perfect 100/100 PageSpeed score on Desktop.
 
 ![PageSpeed Insights 100/100 score for https://www.josephearl.co.uk on Deskop](/images/100-miles-an-hour-pagespeed.png)
 
