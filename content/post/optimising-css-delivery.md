@@ -3,16 +3,16 @@ date: "2017-04-10T22:42:45+01:00"
 categories: []
 tags: ["static-sites", "performance", "pagespeed", "critical-css"]
 description: ""
-title: "100 miles an hour with critical CSS"
+title: "Optimising CSS delivery"
 ---
 
 In [a previous post](/post/static-sites-performance/) I covered my efforts to improve the PageSpeed ranking of my site.
 
 Today I achieved a perfect 100/100 PageSpeed score on Desktop.
 
-![PageSpeed Insights 100/100 score for https://www.josephearl.co.uk on Deskop](/images/100-miles-an-hour-pagespeed.png)
+![PageSpeed Insights 100/100 score for https://www.josephearl.co.uk on Deskop](/images/optimising-css-delivery.png)
 
-To do this I had to optimize my CSS delivery. What does that mean? Well, previously, all of my styles were loaded using a `link` in the `head`:
+To do this I had to optimise my CSS delivery. What does that mean? Well, previously, all of my styles were loaded using a `link` in the `head`:
 
 ```html
 <html>
