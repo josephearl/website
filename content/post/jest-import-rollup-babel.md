@@ -32,7 +32,7 @@ import Preliminaries from "../src/Preliminaries";
 
 const preliminaries = new Preliminaries();
 
-test("Constructor:", () => {
+describe("Constructor:", () => {
   it("should return something", () => {
     expect(new Preliminaries()).not.toBeNull();
   });    
