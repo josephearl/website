@@ -14,7 +14,7 @@ When creating your `config.yml` make sure to include at least one collection or 
 
 Here's an example `config.yml` which supports a single "post" collection to allow creating and editing content in `content/post/`:  
 
-```
+```yaml
 # Save changes to GitHub
 backend:
   name: github
