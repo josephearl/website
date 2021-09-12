@@ -14,6 +14,14 @@ Static HTML is generated from the content using [Hugo](https://gohugo.io) and sa
 
 Users can log into the [Netlify CMS](https://www.netlifycms.org) single-page app at [/admin](https://www.josephearl.co.uk/admin) and edit the content, which saves changes back to the GitHub repo.
 
+Install Hugo:
+
+    brew install hugo
+
+Create a new post:
+
+    hugo new posts/my-new-post.md
+
 Test the site locally:
 
     hugo server
