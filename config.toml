@@ -10,7 +10,7 @@ theme = "cactus-plus"
 [params]
     name = "Joseph Earl"
     description = "Joseph Earl`s Website"
-    bio = "Senior Consultant <a href='https://www.thoughtworks.com'>@ThoughtWorks</a>"
+    bio = "Lead Consultant <a href='https://www.thoughtworks.com'>@thoughtworks</a>"
     twitter = "josephearl"
     enableRSS = false
 
