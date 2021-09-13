@@ -3,6 +3,9 @@ title = "Joseph Earl"
 baseURL = "https://www.josephearl.co.uk/"
 theme = "cactus-plus"
 
+[markup.goldmark.renderer]
+    unsafe = true
+
 [taxonomies]
     tag = "tags"
     category = "categories"
