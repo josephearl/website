@@ -11,6 +11,6 @@
     # Report to report-uri.com
     Report-To: {"group":"default","max_age":31536000,"endpoints":[{"url":"https://josephearl.report-uri.com/a/d/g"}],"include_subdomains":true}
     # CSP
-    Content-Security-Policy: default-src 'self'; object-src 'none'; img-src 'self' https://avatars3.githubusercontent.com data:; script-src 'self' https://identity.netlify.com; style-src 'self'; font-src 'self'; worker-src 'self'; report-uri https://josephearl.report-uri.com/r/d/csp/wizard; report-to default; connect-src 'self' https://api.github.com;
+    Content-Security-Policy: default-src 'self'; object-src 'none'; img-src 'self' https://avatars3.githubusercontent.com data:; script-src 'self' https://identity.netlify.com; style-src 'self' 'unsafe-inline'; font-src 'self'; worker-src 'self'; report-uri https://josephearl.report-uri.com/r/d/csp/wizard; report-to default; connect-src 'self' https://api.github.com;
     # Allow service worker to access all site
     Service-Worker-Allowed: /
