@@ -1,6 +1,6 @@
 ---
 categories: []
-tags: ["monitoring", "pingdom"]
+tags: ["observability", "pingdom"]
 description: ""
 title: "Monitoring your site’s uptime with Pingdom"
 date: "2017-03-27T16:59:27Z"
