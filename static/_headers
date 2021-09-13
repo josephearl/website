@@ -11,6 +11,6 @@
     # Report to report-uri.com
     Report-To: {"group":"default","max_age":31536000,"endpoints":[{"url":"https://josephearl.report-uri.com/a/d/g"}],"include_subdomains":true}
     # CSP
-    Content-Security-Policy: default-src 'self'; object-src 'none'; img-src 'self' https://avatars3.githubusercontent.com; script-src 'self' https://identity.netlify.com; style-src 'self' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-jILZY2UBo/ux6K6qGHntQonoJYNQZfxdLrszRmDpc/o=' 'sha256-vz33z4dhyLTqHIj2n6eKJPbBcjq3gRuGe08dq3GVOCo='; font-src 'self'; worker-src 'self'; report-uri https://josephearl.report-uri.com/r/d/csp/wizard; report-to default; connect-src 'self' https://api.github.com;
+    Content-Security-Policy: default-src 'self'; object-src 'none'; img-src 'self' https://avatars3.githubusercontent.com; script-src 'self' https://identity.netlify.com; style-src 'self' 'unsafe-hashes' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-jILZY2UBo/ux6K6qGHntQonoJYNQZfxdLrszRmDpc/o=' 'sha256-vz33z4dhyLTqHIj2n6eKJPbBcjq3gRuGe08dq3GVOCo='; font-src 'self'; worker-src 'self'; report-uri https://josephearl.report-uri.com/r/d/csp/wizard; report-to default; connect-src 'self' https://api.github.com;
     # Allow service worker to access all site
     Service-Worker-Allowed: /
