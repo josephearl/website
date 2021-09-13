@@ -4,7 +4,6 @@ tags: ["observability", "spring-boot", "logback", "logback-access", "tomcat"]
 description: ""
 title: "Customizing the logback-access format"
 date: "2021-09-12T14:37:21Z"
-draft: true
 ---
 
 If you're already using [Logback](http://logback.qos.ch) and [Logback Logstash Encoder](https://github.com/logstash/logstash-logback-encoder) with Spring Boot to log to something like ELK or Splunk and want to add HTTP access logs to your application then [logback-access](http://logback.qos.ch/access.html) is simple to integrate and the output format and destination can be easily configured through XML just like for standard Logback.
