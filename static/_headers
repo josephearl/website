@@ -9,6 +9,6 @@
     # Disable plugins like Flash or Silverlight
     # Load images, scripts, stylesheets and fonts from self
     # Report to report-uri.io
-    Content-Security-Policy: default-src 'self'; object-src 'none'; img-src 'self' https://avatars3.githubusercontent.com; script-src 'self'; style-src 'self' 'sha256-bb7KVcjd4+Bs0IY6fzaE/GgS+53d3dfMAccz13+w3rU='; font-src 'self'; worker-src 'self'; report-uri https://josephearl.report-uri.io/r/default/csp/enforce; connect-src 'self' https://api.github.com;
+    Content-Security-Policy: default-src 'self'; object-src 'none'; img-src 'self' https://avatars3.githubusercontent.com; script-src 'self' https://identity.netlify.com; style-src 'self'; font-src 'self'; worker-src 'self'; report-uri https://josephearl.report-uri.io/r/default/csp/enforce; connect-src 'self' https://api.github.com;
     # Allow service worker to access all site
     Service-Worker-Allowed: /
