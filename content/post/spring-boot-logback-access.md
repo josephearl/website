@@ -1,11 +1,15 @@
 ---
+title: Customizing the logback-access format
+date: '2021-09-12T14:37:21Z'
+description: ''
+tags:
+  - observability
+  - spring-boot
+  - logback
+  - logback-access
+  - tomcat
 categories: []
-tags: ["observability", "spring-boot", "logback", "logback-access", "tomcat"]
-description: ""
-title: "Customizing the logback-access format"
-date: "2021-09-12T14:37:21Z"
 ---
-
 If you're already using [Logback](http://logback.qos.ch) and [Logback Logstash Encoder](https://github.com/logstash/logstash-logback-encoder) with Spring Boot to log to something like ELK or Splunk and want to add HTTP access logs to your application then [logback-access](http://logback.qos.ch/access.html) is simple to integrate and the output format and destination can be easily configured through XML just like for standard Logback.
 
 To begin add the logback-access dependency to your project:
@@ -77,13 +81,13 @@ In the following example we include the `timestamp` field from the [common field
                         {
                             "level": "DEBUG",
                             "user_agent": "%i{User-Agent}",
-                            "message": "%requestURL %statusCode in %elapsedTime ms"
+                            "message": "%requestURL returned %statusCode in %elapsedTime ms"
                         }
                     </pattern>
                 </pattern>
             </providers>
         </encoder>
-   </appender>
+    </appender>
 
     <appender-ref ref="STDOUT" />
 </configuration>
