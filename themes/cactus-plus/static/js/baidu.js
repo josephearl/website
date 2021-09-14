@@ -1,1 +1,0 @@
-var me=document.querySelector('script[data-id][data-name="baiduAnalytics"]'),baiduAnalytics=me.getAttribute("data-id"),_hmt=_hmt||[];!function(){var t=document.createElement("script");t.src="https://hm.baidu.com/hm.js?"+baiduAnalytics;var e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(t,e)}();

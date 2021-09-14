@@ -1,7 +1,7 @@
 languageCode = "en-us"
 title = "Joseph Earl"
 baseURL = "https://www.josephearl.co.uk/"
-theme = "cactus-plus"
+theme = "mini"
 
 [markup.goldmark.renderer]
     unsafe = true
@@ -10,27 +10,20 @@ theme = "cactus-plus"
     tag = "tags"
     category = "categories"
 
+[social]
+    github = "josephearl"
+    twitter = "josephearl"
+
 [params]
-    name = "Joseph Earl"
+    author = "Joseph Earl"
     description = "Joseph Earl`s Website"
     bio = "Lead Consultant <a href='https://www.thoughtworks.com'>@thoughtworks</a>"
-    twitter = "josephearl"
-    enableRSS = false
-
-    # Nav
-    aboutLink = "http://about.me/josephearl"
-
-    # Disqus commenting
-    enableDisqus = false
-
-    # Duoshuo commenting
-    enableDuoshuo = false
-
-    # GitHub issues
-    enableGithubIssuesTips = false
 
     # Use description as title in single page, posts page and tags page.
     useDescriptionAsTitle = false
 
-    # Baidu analytics
-    enableBaiduAnalytics = false
+    # Disable analytics and fancy things
+    enableRSS = false
+    enableComments = false
+    enableGithubIssuesTips = false
+    enableGoogleAnalytics = false
