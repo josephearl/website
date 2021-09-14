@@ -9,6 +9,6 @@
     # Load images, scripts, stylesheets and fonts from self and block site from being framed
     # Don't load any resource type not explicitly enabled
     # Disable plugins like Flash or Silverlight
-    Content-Security-Policy: default-src 'self'; frame-ancestors 'none'; object-src 'none'; img-src 'self' https://avatars.githubusercontent.com data:; script-src 'self' https://identity.netlify.com; style-src 'self' 'unsafe-inline'; font-src 'self'; worker-src 'self'; report-uri https://josephearl.report-uri.com/r/d/csp/wizard; report-to default; connect-src 'self' https://api.github.com;
+    Content-Security-Policy: default-src 'self'; frame-ancestors 'none'; object-src 'none'; img-src 'self' https://raw.githubusercontent.com https://avatars.githubusercontent.com data:; script-src 'self' https://identity.netlify.com; style-src 'self' 'unsafe-inline'; font-src 'self'; worker-src 'self'; report-uri https://josephearl.report-uri.com/r/d/csp/wizard; report-to default; connect-src 'self' https://api.github.com;
     # Allow service worker to access all site
     Service-Worker-Allowed: /
