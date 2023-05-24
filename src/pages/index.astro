@@ -1,0 +1,239 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+    <style>
+      h3 {
+        margin-bottom: 0.3em;
+      }
+      h3 + p {
+        margin-top: 0.3em;
+      }
+      table th {
+        width: 33.33%;
+      }
+      table td {
+        background-color: #f7f7f7;
+        font-size: 0.9em;
+      }
+      ul {
+        list-style-type: none;
+        margin-top: 0;
+        margin-left: 0;
+        padding-left: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <Header title={SITE_TITLE} />
+    <main>
+      <h2>Values</h2>
+      <p>
+        Through 12 years of professional experience in software delivery and
+        leadership roles, I have found that good software is delivered through
+        close customer collaboration and a motivated workforce. Guided by the
+        Lean and Agile philosophies, I continuously seek opportunities to learn
+        and improve. My commitment to continuous improvement and respect for
+        people fosters an environment that fuels innovation, collaboration, and
+        growth. I firmly believe that empathy towards customers is essential for
+        all team members, as is the ability to respond quickly to their demands
+        through practices like DevOps and continuous deployment.
+      </p>
+
+      <h2>Experience</h2>
+      <h3>2022-2023 Principal Technical Consultant @Waracle</h3>
+      <p>
+        Strategy and innovation for some of the UK's most pioneering clean tech
+        startups and largest financial services and energy providers.<br
+        />Responsible for: Growing account relationships, helping to develop the
+        brand as a leader in thought leadership, leading consulting engagements.
+      </p>
+
+      <h3>2016-2022 Lead Technical Consultant @Thoughtworks</h3>
+      <p>
+        Large scale technology modernisation, capability development and digital
+        product development for some of UK's leading groceries, mobility, legal
+        and business solutions brands.<br />Responsible for: Leading teams,
+        performance reviews and coaching, technical architecture and stack,
+        operations. Hands-on.
+      </p>
+
+      <h3>2015-2016 Chief Technology Officer @Lenio</h3>
+      <p>
+        Keeping the spirit of giving spare change to charities alive in a
+        digital and cashless society by automatically rounding-up purchases
+        through banking integrations.<br />Responsible for: Hiring and managing
+        technology staff, delivering investment prototypes. Hands-on.
+      </p>
+
+      <h3>2012-2015 Head of Mobile @Powa Technologies</h3>
+      <p>
+        Delivering innovative omni-channel retail experiences and mobile payment
+        solutions for customers and businesses.<br />Responsible for: Hiring and
+        managing multiple mobile teams, providing mobile development, testing
+        and release capabilities across iOS & Android. Hands-on.
+      </p>
+
+      <h3>2011-2012 Android Developer @BirdGuides</h3>
+      <p>
+        Building the next generation of apps for bird watchers.<br />Responsible
+        for: Developing & releasing Android apps. Hands-on.
+      </p>
+
+      <h2>Skills</h2>
+      <table>
+        <tr>
+          <th>Management &amp; Leadership</th>
+          <th>Practices & Techniques</th>
+          <th>Technology</th>
+        </tr>
+        <tr>
+          <td
+            ><strong>People first</strong>
+            <ul>
+              <li>121s</li>
+              <li>Coaching & mentoring</li>
+              <li>Wellbeing & culture</li>
+              <li>Performance reviews</li>
+              <li>Interviews</li>
+              <li>DevEx</li>
+            </ul>
+
+            <strong>Lean management</strong>
+            <ul>
+              <li>OKRs</li>
+              <li>Engineering management</li>
+              <li>Lean product management</li>
+              <li>Team modelling & financial forecasting</li>
+              <li>Job requirements</li>
+            </ul>
+
+            <strong>Technical leadership</strong>
+            <ul>
+              <li>Technical strategy</li>
+              <li>Solution selection</li>
+              <li>Presentations</li>
+            </ul>
+          </td>
+
+          <td
+            ><strong>Customer focused</strong>
+            <ul>
+              <li>Product engineering</li>
+              <li>Customer support</li>
+              <li>Incidents, On call</li>
+              <li>Analytics, Metrics, KPIs</li>
+            </ul>
+
+            <strong>Shifting left</strong>
+            <ul>
+              <li>TDD, TBD, Pair programming</li>
+              <li>DevSecOps, FinOps</li>
+              <li>Separation of deployment & release, Feature toggles</li>
+              <li>Testing in production</li>
+            </ul>
+
+            <strong>Continuous delivery</strong>
+            <ul>
+              <li>CI/CD</li>
+              <li>Continuous deployments</li>
+              <li>Infrastructure as code Compliance as code</li>
+              <li>GitOps</li>
+            </ul>
+
+            <strong>Agile</strong><ul>
+              <li>Inception, Discovery, Planning, Retrospectives, Standups</li>
+              <li>Event storming</li>
+              <li>Lightweight threat modelling</li>
+            </ul>
+          </td>
+
+          <td
+            ><strong>Generalist</strong>
+            <ul>
+              <li>
+                Java, TypeScript, C#, Kotlin, Swift, Scala, Bash, Willing to
+                learn
+              </li>
+            </ul>
+
+            <strong>Full stack</strong>
+            <ul>
+              <li>Backend, Spring, Quarkus, Express, ASP.NET Core</li>
+              <li>Responsive Web, React, Next.js, HTML5</li><li>
+                Mobile, iOS, Android
+              </li>
+            </ul>
+
+            <strong>Evolutionary architecture</strong>
+            <ul>
+              <li>
+                DDD, Micro services, Micro Frontends, Mobile Micro Features,
+                Serverless, Messaging, Stream processing
+              </li>
+              <li>ADRs</li>
+            </ul>
+
+            <strong>Cloud platforms</strong>
+            <ul><li>AWS, Kubernetes, OpenShift, Docker, Lambda</li></ul>
+
+            <strong>Operations</strong>
+            <ul>
+              <li>Production deployments</li><li>Monitoring & alerting</li><li>
+                Blameless post-mortems
+              </li>
+              <li>Operational excellence</li>
+            </ul></td
+          ></tr
+        >
+      </table>
+
+      <h2>Books that have influenced my thinking</h2>
+      <p>
+        <a
+          href="https://management30.com/books/managing-for-happiness/"
+          target="_blank">Managing for Happiness</a
+        >, <a
+          href="https://simonsinek.com/books/leaders-eat-last/"
+          target="_blank">Leaders Eat Last</a
+        >, <a
+          href="https://www.superteams.org/www.superteams.org/index.html"
+          target="_blank">Superteams</a
+        >, <a
+          href="https://www.oreilly.com/library/view/lean-enterprise/9781491946527/"
+          target="_blank">Lean Enterprise</a
+        >,
+        <a href="https://itrevolution.com/product/accelerate/" target="_blank"
+          >Accelerate</a
+        >, <a href="https://projecttoproduct.org" target="_blank"
+          >Project to Product</a
+        >, <a href="https://teamtopologies.com" target="_blank"
+          >Team Topologies</a
+        >, <a
+          href="https://itrevolution.com/product/the-phoenix-project/"
+          target="_blank">The Phoenix Project</a
+        >,
+        <a
+          href="https://www.goodreads.com/book/show/113934.The_Goal"
+          target="_blank">The Goal</a
+        >, <a
+          href="https://press.princeton.edu/books/paperback/9780691164090/qed"
+          target="_blank">QED</a
+        >
+      </p>
+
+      <h2>Education</h2>
+
+      <h3>2006-2010 MSci Theoretical Physics @Imperial College London</h3>
+      <p>Studying the universe and gravity with computational methods.</p>
+    </main>
+    <Footer />
+  </body>
+</html>

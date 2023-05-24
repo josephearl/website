@@ -1,0 +1,76 @@
+---
+import BaseHead from "../../components/BaseHead.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
+import { getCollection } from "astro:content";
+import FormattedDate from "../../components/FormattedDate.astro";
+
+const posts = (await getCollection("blog")).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+const firstPost = posts[0];
+const { title, description, pubDate, updatedDate, heroImage } = firstPost.data;
+const morePosts = posts.slice(1);
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+    <style>
+      ul {
+        list-style-type: none;
+        padding: unset;
+      }
+      ul li {
+        display: flex;
+      }
+      ul li :global(time) {
+        flex: 0 0 130px;
+        font-style: italic;
+        color: #595959;
+      }
+      ul li a:visited {
+        color: #8e32dc;
+      }
+    </style>
+  </head>
+  <body>
+    <Header />
+    <main>
+      <section>
+        <article>
+          {heroImage && <img width={720} height={360} src={heroImage} alt="" />}
+          <h1 class="title">
+            <a href={`/blog/${firstPost.slug}/`}>{title}</a>
+          </h1>
+          <FormattedDate date={pubDate} />
+          {
+            updatedDate && (
+              <div class="last-updated-on">
+                Last updated on <FormattedDate date={updatedDate} />
+              </div>
+            )
+          }
+          <hr />
+          {description}
+        </article>
+      </section>
+      <section>
+        <h2>More posts</h2>
+        <ul>
+          {
+            morePosts.map((post) => (
+              <li>
+                <FormattedDate date={post.data.pubDate} />
+                <a href={`/blog/${post.slug}/`}>{post.data.title}</a>
+              </li>
+            ))
+          }
+        </ul>
+      </section>
+    </main>
+    <Footer />
+  </body>
+</html>

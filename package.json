@@ -1,0 +1,26 @@
+{
+  "name": "website-astro",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "format": "prettier --write .",
+    "check": "astro check",
+    "a11y": "axe http://localhost:3000 http://localhost:3000/blog/",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "^0.19.1",
+    "@astrojs/rss": "^2.4.1",
+    "@astrojs/sitemap": "^1.3.0",
+    "astro": "^2.4.1"
+  },
+  "devDependencies": {
+    "@axe-core/cli": "^4.7.1",
+    "prettier": "^2.8.8",
+    "prettier-plugin-astro": "^0.9.0"
+  }
+}
