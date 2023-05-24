@@ -7,8 +7,11 @@ import { getCollection } from "astro:content";
 import FormattedDate from "../../components/FormattedDate.astro";
 
 const posts = (await getCollection("blog")).sort(
-  (a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf()
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );
+const firstPost = posts[0];
+const { title, description, pubDate, updatedDate, heroImage } = firstPost.data;
+const morePosts = posts.slice(1);
 ---
 
 <!DOCTYPE html>
@@ -37,9 +40,28 @@ const posts = (await getCollection("blog")).sort(
     <Header />
     <main>
       <section>
+        <article>
+          {heroImage && <img width={720} height={360} src={heroImage} alt="" />}
+          <h1 class="title">
+            <a href={`/blog/${firstPost.slug}/`}>{title}</a>
+          </h1>
+          <FormattedDate date={pubDate} />
+          {
+            updatedDate && (
+              <div class="last-updated-on">
+                Last updated on <FormattedDate date={updatedDate} />
+              </div>
+            )
+          }
+          <hr />
+          {description}
+        </article>
+      </section>
+      <section>
+        <h2>More posts</h4>
         <ul>
           {
-            posts.map((post) => (
+            morePosts.map((post) => (
               <li>
                 <FormattedDate date={post.data.pubDate} />
                 <a href={`/blog/${post.slug}/`}>{post.data.title}</a>
