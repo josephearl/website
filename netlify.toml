@@ -1,8 +1,0 @@
-# Global settings applied to the whole site.
-[build]
-    base = ""
-    publish = "public"
-    command = "hugo"
-
-[build.environment]
-  HUGO_VERSION = "0.88.1"
