@@ -10,7 +10,6 @@ const isActive =
   href === pathname ||
   href === pathname.replace(/\/$/, "") ||
   (href !== "/" && pathname.startsWith(href));
-console.log("isActiveCheck", pathname, href, isActive);
 ---
 
 <a href={href} class:list={[className, { active: isActive }]} {...props}>

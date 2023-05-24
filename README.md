@@ -1,6 +1,18 @@
 # website
 
-## 🧞 Commands
+[@josephearl](https://github.com/josephearl)’s website <https://www.josephearl.co.uk>.
+
+Built using [Astro](https://astro.build) and served with [Netlify](https://www.netlify.com).
+
+## How it works
+
+Content is stored as plain old Markdown in the `src/content` directory.
+
+Static HTML is generated from the content using [Astro](https://astro.build) and saved into the `dist` directory.
+
+[Netlify](https://www.netlify.com) detects changes to the Git repository and continually builds and deploys the site, as well as managing SSL certificates with Lets Encrypt.
+
+## Commands
 
 All commands are run from the root of the project, from a terminal:
 
