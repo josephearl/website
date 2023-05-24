@@ -9,6 +9,17 @@ const HeaderTag = isHome ? "h1" : "h2";
 
 <header>
   <HeaderTag>
+    {
+      isHome && (
+        <img
+          src="/avatar.jpg"
+          width="40"
+          height="40"
+          class="avatar"
+          alt="A photo of me, Joseph Earl"
+        />
+      )
+    }
     {SITE_TITLE}
   </HeaderTag>
   <nav>
@@ -28,5 +39,10 @@ const HeaderTag = isHome ? "h1" : "h2";
   }
   h2 {
     margin: 0.5em 0;
+  }
+  .avatar {
+    border-radius: 50%;
+    vertical-align: text-top;
+    margin-right: 0.4em;
   }
 </style>
