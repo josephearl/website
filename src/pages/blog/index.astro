@@ -12,12 +12,13 @@ const posts = (await getCollection("blog")).sort(
 const firstPost = posts[0];
 const { title, description, pubDate, updatedDate, heroImage } = firstPost.data;
 const morePosts = posts.slice(1);
+const siteTitle = SITE_TITLE + "’s Blog";
 ---
 
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+    <BaseHead title={siteTitle} description={SITE_DESCRIPTION} />
     <style>
       ul {
         list-style-type: none;
