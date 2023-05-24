@@ -18,7 +18,7 @@ This means, for example, that pages should work without JavaScript enabled, with
 Today, most modern websites are built using a framework like React as single-page applications (SPAs), and rendered entirely client-side.
 As [many organisations](https://dev.to/tigt/making-the-worlds-fastest-website-and-other-mistakes-56na) have found, React has an amazing developer experience, but a not-so-great user experience because of the performance hit from all of the client-side JavaScript and rendering.
 
-So what would the ideal web framework look like? Something that gives us the DevEx of React (and even lets us use React!), but renders components that don't need client-side JavaScript on the server or statically as part of the build process, and makes it easy to create interactive components which work well for users without JavaScript.
+So what would the ideal web framework look like? Something that gives us the DevEx of React (and even lets us use React!), but renders components that don't need client-side JavaScript on the server or statically as part of the build process, and makes it easy to create interactive components which also work well for users without JavaScript.
 
 [Next.js](https://nextjs.org) is probably the best-known web framework that has taken steps towards this - and with [Next.js 13](https://nextjs.org/blog/next-13) and the introduction of the `app` directory and support for suspense and streaming now has all of the building blocks needed.
 
