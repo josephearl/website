@@ -4,12 +4,15 @@ import FormattedDate from "@components/FormattedDate.astro";
 
 type Props = CollectionEntry<"blog">["data"] & { slug?: string };
 
-const { slug, title, image, pubDate, updatedDate } = Astro.props;
+const { slug, title, image, pubDate, updatedDate, tags } = Astro.props;
 ---
 
 {image && <img width={720} height={360} src={image.url} alt={image.alt} />}
 <h1 class="title">{slug ? <a href={`/blog/${slug}/`}>{title}</a> : title}</h1>
-<FormattedDate date={pubDate} />
+<div class="meta">
+  <span class="published-on"><FormattedDate date={pubDate} /></span>
+  {tags && tags.length > 0 && tags.map((tag) => <span class="tag">{tag}</span>)}
+</div>
 {
   updatedDate && (
     <div class="last-updated-on">
@@ -17,3 +20,25 @@ const { slug, title, image, pubDate, updatedDate } = Astro.props;
     </div>
   )
 }
+<style>
+  .meta {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .meta .published-on {
+    flex: 0 0 130px;
+  }
+  .tag {
+    margin: 0 0.25em 0 0;
+    border-radius: 0.5em;
+    padding: 3px 6px;
+    background-color: #f2f2f2;
+    color: #595959;
+    font-size: 0.8em;
+  }
+  .last-updated-on {
+    margin-top: 0.25em;
+    color: #949494;
+    font-style: italic;
+  }
+</style>
