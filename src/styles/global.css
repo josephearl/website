@@ -36,7 +36,7 @@ h5,
 h6,
 strong,
 b,
-table th {
+dt {
   font-family: "IBM Plex Sans Medium", sans-serif;
   color: #222;
 }
