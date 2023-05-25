@@ -5,7 +5,9 @@ tags:
 description: "I recently found myself with some free time on my hands, so I decided to rewrite my website using Astro. Why did I choose Astro?"
 title: "Back to progressive enhancement with Astro"
 pubDate: "2023-05-24T12:07:13Z"
-heroImage: "/images/astro.jpg"
+image:
+  url: "/images/astro.jpg"
+  alt: "Built with Astro"
 ---
 
 I recently found myself with some free time on my hands, so I decided to rewrite my website using [Astro](https://astro.build) (it was previously built using Hugo).

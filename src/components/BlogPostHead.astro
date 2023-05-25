@@ -1,0 +1,19 @@
+---
+import type { CollectionEntry } from "astro:content";
+import FormattedDate from "@components/FormattedDate.astro";
+
+type Props = CollectionEntry<"blog">["data"] & { slug?: string };
+
+const { slug, title, image, pubDate, updatedDate } = Astro.props;
+---
+
+{image && <img width={720} height={360} src={image.url} alt={image.alt} />}
+<h1 class="title">{slug ? <a href={`/blog/${slug}/`}>{title}</a> : title}</h1>
+<FormattedDate date={pubDate} />
+{
+  updatedDate && (
+    <div class="last-updated-on">
+      Last updated on <FormattedDate date={updatedDate} />
+    </div>
+  )
+}
