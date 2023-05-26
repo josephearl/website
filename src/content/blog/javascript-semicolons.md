@@ -1,9 +1,8 @@
 ---
-pubDate: "2018-04-16T09:13:00+01:00"
-categories: []
-tags: ["javascript", "semicolons"]
-description: ""
 title: "JavaScript and Semicolons"
+pubDate: "2018-04-16T09:13:00+01:00"
+description: ""
+tags: ["javascript", "semicolons"]
 ---
 
 To semicolon or not to semicolon?

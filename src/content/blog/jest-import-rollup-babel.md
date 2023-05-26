@@ -1,9 +1,8 @@
 ---
-pubDate: "2017-04-15T20:28:05+01:00"
-categories: []
-tags: ["es6", "jest", "rollup", "babel"]
-description: ""
 title: "Using ES6 `import` in tests with Jest and Rollup"
+pubDate: "2017-04-15T20:28:05+01:00"
+description: ""
+tags: ["es6", "jest", "rollup", "babel"]
 ---
 
 Today while working on a new version of [Preliminaries](https://github.com/josephearl/preliminaries) using ES6 I was trying to get both [Rollup](https://rollupjs.org) working to bundle my code and [Jest](https://facebook.github.io/jest/) to run tests when [`import`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)ing my code.

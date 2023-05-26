@@ -1,9 +1,8 @@
 ---
-pubDate: "2017-04-01T15:49:13+01:00"
-categories: []
-tags: ["css", "overlay", "scrolling"]
-description: ""
 title: "Scrollable CSS overlay"
+pubDate: "2017-04-01T15:49:13+01:00"
+description: ""
+tags: ["css", "overlay", "scrolling"]
 ---
 
 I recently had the need to create a CSS overlay for the search function on this site. My requirements were that the overlay should be scrollable, whilst the overlay was visible the body should _not_ be scrollable, and any HTML for the overlay should be after the main content.

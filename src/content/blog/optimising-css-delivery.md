@@ -1,12 +1,11 @@
 ---
-pubDate: "2017-04-10T22:42:45+01:00"
-categories: []
-tags: ["static-sites", "performance", "pagespeed", "critical-css"]
-description: ""
 title: "Optimising CSS delivery"
+pubDate: "2017-04-10T22:42:45+01:00"
+description: ""
+tags: ["static-sites", "performance", "pagespeed", "critical-css"]
 ---
 
-In [a previous post](/post/static-sites-performance/) I covered my efforts to improve the PageSpeed ranking of my site.
+In [a previous post](/blog/static-sites-performance/) I covered my efforts to improve the PageSpeed ranking of my site.
 
 Today I achieved a perfect 100/100 PageSpeed score on Desktop.
 

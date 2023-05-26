@@ -1,9 +1,8 @@
 ---
-categories: []
-tags: ["netlify", "cms", "hugo"]
-description: ""
 title: "Using Netlify CMS with Hugo"
 pubDate: "2017-03-22T23:48:18Z"
+description: ""
+tags: ["netlify", "cms", "hugo"]
 ---
 
 If you're using [Hugo](https://gohugo.io) to generate your static site and want to use [Netlify CMS](https://github.com/netlify/netlify-cms/blob/master/docs/quick-start.md) to edit your content, here are some tips to help you get started.

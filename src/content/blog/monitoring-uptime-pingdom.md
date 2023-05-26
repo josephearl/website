@@ -1,9 +1,8 @@
 ---
-categories: []
-tags: ["observability", "pingdom"]
-description: ""
 title: "Monitoring your site’s uptime with Pingdom"
 pubDate: "2017-03-27T16:59:27Z"
+description: ""
+tags: ["observability", "pingdom"]
 ---
 
 A couple of days ago my website went for a short period (10-20 mins) due to an issue with my DNS provider which I was only aware of because I happened to be actively working on my site at the time.

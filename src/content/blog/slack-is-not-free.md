@@ -1,8 +1,7 @@
 ---
-description: ""
 title: "Slack is not a free product"
 pubDate: "2017-04-01T09:24:40+01:00"
-categories: []
+description: ""
 tags: ["slack"]
 ---
 

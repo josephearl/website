@@ -1,5 +1,10 @@
 ---
-categories: []
+title: "Don't forget to brush your teeth"
+image:
+  url: "/images/child-brushing-teeth.jpg"
+  alt: "A young child brushing their teeth"
+pubDate: "2023-05-26T15:46:39Z"
+description: "Or ― how does a piece of software become legacy?"
 tags:
   [
     "project-management",
@@ -7,12 +12,6 @@ tags:
     "continuous-improvement",
     "sustainable-development",
   ]
-description: "Or ― how does a piece of software become legacy?"
-title: "Don't forget to brush your teeth"
-pubDate: "2023-05-26T15:46:39Z"
-image:
-  url: "/images/child-brushing-teeth.jpg"
-  alt: "A young child brushing their teeth"
 ---
 
 Or -- how does a piece of software become legacy?

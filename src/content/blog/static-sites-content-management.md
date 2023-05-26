@@ -1,9 +1,8 @@
 ---
-categories: []
-tags: ["static-sites", "cms", "netlify"]
-description: ""
 title: "Content management workflows for static sites"
 pubDate: "2017-03-21T23:03:29Z"
+description: ""
+tags: ["static-sites", "cms", "netlify"]
 ---
 
 Static sites are great! They’re quick, easy to make and host using services like [GitHub Pages](https://pages.github.com) and [Netlify](https://www.netlify.com).

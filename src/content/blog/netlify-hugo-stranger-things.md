@@ -1,9 +1,8 @@
 ---
-categories: []
-tags: ["netlify", "hugo", "debugging"]
-description: ""
 title: "Stranger things with Netlify and Hugo"
 pubDate: "2017-03-24T18:24:53Z"
+description: ""
+tags: ["netlify", "hugo", "debugging"]
 ---
 
 I recently ran into a strange situation where [Netlify](https://www.netlify.com) was rendering my [Hugo](https://gohugo.io) static site differently to when I ran `hugo` locally from my laptop.

@@ -1,8 +1,7 @@
 ---
-description: ""
 title: "Preliminaries — a front matter parser for Node.js"
 pubDate: "2017-04-09T20:13:44+01:00"
-categories: []
+description: ""
 tags: ["preliminaries", "markdown", "nodejs"]
 ---
 

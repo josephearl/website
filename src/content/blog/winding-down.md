@@ -1,9 +1,8 @@
 ---
-pubDate: "2017-03-31T00:00:10+01:00"
-categories: []
-tags: ["mental-health", "managing-stress"]
-description: ""
 title: "Winding down at the end of the work day"
+pubDate: "2017-03-31T00:00:10+01:00"
+description: ""
+tags: ["mental-health", "managing-stress"]
 ---
 
 Recently a good colleague at ThoughtWorks and the tech lead on my current project, Sophie Holden, has been taking a group of us through the ThoughtWorks tech lead training materials.

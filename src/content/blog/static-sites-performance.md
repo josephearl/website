@@ -1,8 +1,7 @@
 ---
-description: ""
 title: "Improving your static site’s performance using PageSpeed Insights"
 pubDate: "2017-03-26T09:02:59Z"
-categories: []
+description: ""
 tags: ["static-sites", "performance", "pagespeed"]
 ---
 

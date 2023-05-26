@@ -1,8 +1,7 @@
 ---
-description: ""
 title: "Securing your Netlify static site"
 pubDate: "2017-03-25T00:12:41Z"
-categories: []
+description: ""
 tags: ["static-sites", "security", "netlify"]
 ---
 

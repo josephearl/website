@@ -1,12 +1,11 @@
 ---
-categories: []
-tags: ["team-building", "mental-health", "wellbeing", "fun", "cohesion"]
-description: "How one team I worked with during the Coronavirus pandemic kept things fun despite being remote, and how in doing so they changed an organisation a little bit for the better."
 title: "Make fun part of your work routine"
-pubDate: "2023-05-25T12:34:05Z"
 image:
   url: "/images/team-building-games.jpg"
   alt: "Quikwit online game"
+pubDate: "2023-05-25T12:34:05Z"
+description: "How one team I worked with during the Coronavirus pandemic kept things fun despite being remote, and how in doing so they changed an organisation a little bit for the better."
+tags: ["team-building", "mental-health", "wellbeing", "fun", "cohesion"]
 ---
 
 When the Coronavirus pandemic struck, I, like most others and everyone on my team at the time, found myself having to adapt to working remotely after years of working in a close, in-person, very collaborative manner.

@@ -1,9 +1,8 @@
 ---
-pubDate: "2017-03-23T20:10:13Z"
-categories: []
-tags: ["yubikey", "macos", "sierra"]
-description: ""
 title: "macOS Sierra Secure Login with YubiKey 4"
+pubDate: "2017-03-23T20:10:13Z"
+description: ""
+tags: ["yubikey", "macos", "sierra"]
 ---
 
 I recently bought a [YubiKey 4](https://www.yubico.com/product/y4/) and one of the first things I wanted to try out was securing the login to my MacBook Pro.

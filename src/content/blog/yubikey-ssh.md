@@ -1,9 +1,8 @@
 ---
-pubDate: "2017-03-30T21:07:57+01:00"
-categories: []
-tags: ["yubikey", "ssh", "macos"]
-description: ""
 title: "SSH authentication with YubiKey"
+pubDate: "2017-03-30T21:07:57+01:00"
+description: ""
+tags: ["yubikey", "ssh", "macos"]
 ---
 
 One great thing I've found I can do with my [YubiKey](https://www.yubico.com/product/y4/) is use it for SSH certificate based authentication. Your private key is stored on your YubiKey rather than your computer and requires your PIN to access or alter.

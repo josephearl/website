@@ -1,13 +1,12 @@
 ---
-categories: []
-tags:
-  ["static-sites", "react", "mpa", "spa", "progressive-enhancement", "astro"]
-description: "I recently found myself with some free time on my hands, so I decided to rewrite my website using Astro. Why did I choose Astro?"
 title: "Back to progressive enhancement with Astro"
-pubDate: "2023-05-24T12:07:13Z"
 image:
   url: "/images/astro.jpg"
   alt: "Built with Astro"
+pubDate: "2023-05-24T12:07:13Z"
+description: "I recently found myself with some free time on my hands, so I decided to rewrite my website using Astro. Why did I choose Astro?"
+tags:
+  ["static-sites", "react", "mpa", "spa", "progressive-enhancement", "astro"]
 ---
 
 I recently found myself with some free time on my hands, so I decided to rewrite my website using [Astro](https://astro.build) (it was previously built using Hugo).

@@ -1,8 +1,7 @@
 ---
-description: ""
 title: "Search your Hugo static site using lunr.js"
 pubDate: "2017-03-29T21:10:04+01:00"
-categories: []
+description: ""
 tags: ["static-sites", "hugo", "search"]
 ---
 

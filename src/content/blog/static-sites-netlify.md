@@ -1,9 +1,8 @@
 ---
-categories: []
-tags: ["static-sites", "netlify"]
-description: ""
 title: "Hosting your static site with Netlify"
 pubDate: "2017-03-19T19:50:36Z"
+description: ""
+tags: ["static-sites", "netlify"]
 ---
 
 This site is hosted with [Netlify](http://netlify.com). Why?
