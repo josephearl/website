@@ -46,7 +46,7 @@ a {
   color: #3273dc;
 }
 nav a {
-  margin-right: 10px;
+  margin-right: 0.6em;
 }
 textarea {
   width: 100%;
@@ -73,11 +73,14 @@ pre > code {
   all: unset;
 }
 blockquote {
-  border: 1px solid #999;
+  border-left: 2px solid #999;
   color: #222;
-  padding: 2px 0 2px 20px;
+  padding: 2px 0 2px 1em;
   margin: 0;
   font-style: italic;
+}
+blockquote > p {
+  margin: 0;
 }
 table th,
 table td {
@@ -85,7 +88,8 @@ table td {
 }
 .title {
   font-size: 2em;
-  margin: 0.25em 0 0;
+  margin: 0.25em 0;
+  line-height: 1.15;
 }
 hr {
   border: 0;
