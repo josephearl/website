@@ -26,7 +26,7 @@ To paraphrase Fred Brooks quote from the [The Mythical Man-Month](https://www.go
 There is never one commit so awful that it destroys a project and means that it must be rewritten from scratch or thrown away.
 It is either through a series of commits over a sustained period of time in which each commit does not improve the system sufficiently, or it is through a lack of commits.
 
-One thing about brushing your teeth is -- skipping it once is entirely unlikely to lead to dental ruin.
+One thing about brushing your teeth is that skipping it once is entirely unlikely to lead to dental ruin.
 However, skipping it or not performing it often enough over a sustained period of time will surely lead to poor dental health and a trip to the dentist at the very least.
 
 In a high pressure delivery environment, it can be very easy to convince yourselves that skipping brushing your teeth -- for example performing dependency upgrades -- today makes sense given all of the other priorities you have such as that feature you just have to get out, because after all, one day won't make a difference.
