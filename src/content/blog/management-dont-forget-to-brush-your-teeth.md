@@ -39,4 +39,4 @@ So it is with organisations -- organisations that have high pressure one day, ar
 
 And so, over time, commit by commit, the systems developed by such organisations fall further and further behind, ultimately requiring large and costly programmes of work to upgrade and refactor or rewrite them entirely that stop any new features being delivered for customers and the business.
 
-Make sure that you are not skipping brushing *your teeth*, and that each step your team takes, each commit, is sustainable.
+Make sure that you are not skipping brushing _your teeth_ every day, and that each step your team takes, each commit, is sustainable.
