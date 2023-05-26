@@ -7,7 +7,7 @@ tags:
     "continuous-improvement",
     "sustainable-development",
   ]
-description: "Or ― how does a piece of software becomes legacy?"
+description: "Or ― how does a piece of software become legacy?"
 title: "Don't forget to brush your teeth"
 pubDate: "2023-05-26T15:46:39Z"
 image:
@@ -15,7 +15,7 @@ image:
   alt: "A young child brushing their teeth"
 ---
 
-Or -- how does a piece of software becomes legacy?
+Or -- how does a piece of software become legacy?
 
 I think the answer is:
 
