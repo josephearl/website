@@ -1,16 +1,17 @@
 @font-face {
   font-family: "IBM Plex Sans";
-  src: url("/IBMPlexSans-Regular.woff2") format("woff2"),
-    url("/IBMPlexSans-Regular.woff") format("woff");
+  src: local("IBM Plex Sans"), url("/ibmplexsans-regular.woff2") format("woff2"),
+    url("/ibmplexsans-regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "IBM Plex Sans";
-  src: url("/IBMPlexSans-Medium.woff2") format("woff2"),
-    url("/IBMPlexSans-Medium.woff") format("woff");
+  font-family: "IBM Plex Sans Medium";
+  src: local("IBM Plex Sans Medium"),
+    url("/ibmplexsans-medium.woff2") format("woff2"),
+    url("/ibmplexsans-medium.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -37,6 +38,7 @@ h6,
 strong,
 b,
 dt {
+  font-family: "IBM Plex Sans Medium", Helvetica, Arial, sans-serif;
   font-weight: bold;
   color: #222;
 }
