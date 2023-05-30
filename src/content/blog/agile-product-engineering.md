@@ -48,6 +48,8 @@ To achieve this, we must minimise the cognitive load and time taken to develop a
 
 As product engineers, our value is in our ability to understand our customers and solve their problems as efficiently and excellently as possible using whatever tools are available.
 
-Today these skills may be expressed through designing and writing and testing and deploying software -- but tomorrow it could be something else, designing and writing and testing an AI prompt for instance, or configuring a no-code tool.
+Today these skills may be expressed through designing or writing or testing or deploying software -- but tomorrow it could be more than of these or something else entirely, designing and writing and testing an AI prompt for instance, or configuring a no-code tool.
 
 Whatever it is, we have nothing to fear.
+
+An alternative title for this article was: _What if we shifted left on everything?_
