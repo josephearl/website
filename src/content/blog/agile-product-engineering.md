@@ -5,7 +5,7 @@ image:
   alt: "Conveyor belt with products in boxes moving quickly along it"
 pubDate: "2023-05-30T19:44:41Z"
 description: "Building for the customer and shifting left on everything."
-tags: ["agile", "product-thinking", "shifting-left", "ai"]
+tags: ["agile", "product-thinking", "shifting-left"]
 ---
 
 If you observe the majority of organisations involved in delivering digital products today and examine how their employees spend their time, you might not be surprised to discover that almost all of their time is dedicated to the development and delivery process!
