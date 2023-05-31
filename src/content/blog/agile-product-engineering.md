@@ -16,7 +16,7 @@ This might seem obvious, and therefore expected, and so perhaps even not to be q
 
 _What if our goal was to spend as much time as possible focused on the customer, the outcomes and the impact over the tools and the implementation?_
 
-Not just the product managers or executives, but **everyone** involved in product delivery. The developers, the testers, the business analyst, the delivery manager. Everyone.
+Not just the product managers or executives, but **everyone** involved in product delivery. The developers, the testers, the business analysts, the delivery managers. Everyone.
 
 Then we would want the development process to take the least time possible, and thus involve the least amount of work possible, so that we have time to focus on the thing that really matters: our customers.
 
@@ -39,6 +39,8 @@ To achieve this, we must minimise the cognitive load and time taken to develop a
 **The less work the better**: if automation can do it, it should do it.
 
 **The less code the better**: ideally no code, and if tools like AI let us write code faster so we can build digital products faster, as a product engineer this is A Good Thing™, not something to be afraid of.
+
+**The less stuff the better**: as few environments as possible, as little infrastructure as possible, everything that sits between us and the customer is something that requires our attention and takes our time away from the customer.
 
 **The less waste (blocking) the better**: if it can be done asynchronously it should be, processes must be just-in-time, and we must trust and empower people instead of gate keeping.
 
