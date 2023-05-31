@@ -36,9 +36,9 @@ As product engineers, our goal is to solve our customers' problems and make them
 
 To achieve this, we must minimise the cognitive load and time required for software development and delivery.
 
-**Less work the better**: If automation can handle a task, it should.
+**Less work is better**: If automation can handle a task, it should.
 
-**Less code the better**: Ideally, we should strive for codeless solutions. If AI tools allow us to write code faster, enabling us to build digital products more efficiently, as product engineers, we should embrace this advancement.
+**Less code is better**: Ideally, we should strive for codeless solutions. If AI tools allow us to write code faster, enabling us to build digital products more efficiently, as product engineers, we should embrace this advancement.
 
 **Less stuff is better**: We should aim for a minimal number of environments and infrastructure. Anything that stands between us and the customer demands our attention and detracts from customer focus.
 
