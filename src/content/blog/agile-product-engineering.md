@@ -8,13 +8,13 @@ description: "Building for the customer and shifting left on everything."
 tags: ["agile", "product-thinking", "shifting-left", "ai"]
 ---
 
-If you observe the majority of organizations involved in delivering digital products today and examine how their employees spend their time, you might not be surprised to discover that almost all of their time is dedicated to the development and delivery process!
+If you observe the majority of organisations involved in delivering digital products today and examine how their employees spend their time, you might not be surprised to discover that almost all of their time is dedicated to the development and delivery process!
 
 ![A diagram showing most of peoples time in software organisations is spent on the development and delivery process, and not on serving the customer or improving how we serve the customer](/images/product-engineering-current-state.png)
 
 This might seem obvious and expected, leading to the assumption that it should not be questioned. However -- is it really the ultimate goal?
 
-_What if our goal was to to maximize the time spent on the customer, focusing on outcomes and impact rather than tools and implementation?_
+_What if our goal was to to maximise the time spent on the customer, focusing on outcomes and impact rather than tools and implementation?_
 
 And I don't mean just the product managers or executives, but **everyone** involved in product delivery. This includes the developers, testers, business analysts, and delivery managers. All team members.
 
@@ -34,7 +34,7 @@ As product engineers, our goal is to solve our customers' problems and make them
    - Researching our customers' needs, desires, and preferences
    - Conducting experiments to evaluate the value and viability of ideas
 
-To achieve this, we must minimize the cognitive load and time required for software development and delivery.
+To achieve this, we must minimise the cognitive load and time required for software development and delivery.
 
 **Less work the better**: If automation can handle a task, it should.
 
@@ -42,11 +42,11 @@ To achieve this, we must minimize the cognitive load and time required for softw
 
 **Less stuff is better**: We should aim for a minimal number of environments and infrastructure. Anything that stands between us and the customer demands our attention and detracts from customer focus.
 
-**Less waste (blocking) is better**: Whenever possible, asynchronous processes should be favored, and we must trust and empower individuals rather than gatekeeping.
+**Less waste (blocking) is better**: Whenever possible, asynchronous processes should be favoured, and we must trust and empower individuals rather than gatekeeping.
 
 **Less hand-offs are better**: If one person can handle a task, it's more efficient than involving multiple people. Collaborative parallel work surpasses serial work.
 
-**More adaptible individuals are better**: When hiring, we should prioritize intellect over specific skills or knowledge. Ideally, roles should be fluid to prevent pigeonholing, allowing teams to self-organize.
+**More adaptible individuals are better**: When hiring, we should prioritise intellect over specific skills or knowledge. Ideally, roles should be fluid to prevent pigeonholing, allowing teams to self-organise.
 
 As product engineers, our value lies in our ability to comprehend our customers' needs and solve their problems efficiently and effectively using any available tools.
 
