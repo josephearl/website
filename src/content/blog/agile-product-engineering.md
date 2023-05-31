@@ -54,4 +54,4 @@ Today, these skills may involve activities such as designing, writing, testing, 
 
 Whatever the future holds, we have nothing to fear.
 
-An alternative title for this article was: _What if we shifted left on everything?_
+An earlier title for this article was: _What if we shifted left on everything?_
