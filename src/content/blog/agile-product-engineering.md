@@ -8,50 +8,50 @@ description: "Building for the customer and shifting left on everything."
 tags: ["agile", "product-thinking", "shifting-left", "ai"]
 ---
 
-If you looked at most organisations that deliver digital products today, at where the people involved in delivering the products spent their time, you may not be surprised to find that the vast majority of almost all employees time is spent on the development and delivery process!
+If you observe the majority of organizations involved in delivering digital products today and examine how their employees spend their time, you might not be surprised to discover that almost all of their time is dedicated to the development and delivery process!
 
 ![A diagram showing most of peoples time in software organisations is spent on the development and delivery process, and not on serving the customer or improving how we serve the customer](/images/product-engineering-current-state.png)
 
-This might seem obvious, and therefore expected, and so perhaps even not to be questioned, but -- is it really the goal?
+This might seem obvious and expected, leading to the assumption that it should not be questioned. However -- is it really the ultimate goal?
 
-_What if our goal was to spend as much time as possible focused on the customer, the outcomes and the impact over the tools and the implementation?_
+_What if our goal was to to maximize the time spent on the customer, focusing on outcomes and impact rather than tools and implementation?_
 
-Not just the product managers or executives, but **everyone** involved in product delivery. The developers, the testers, the business analysts, the delivery managers. Everyone.
+And I don't mean just the product managers or executives, but **everyone** involved in product delivery. This includes the developers, testers, business analysts, and delivery managers. All team members.
 
-Then we would want the development process to take the least time possible, and thus involve the least amount of work possible, so that we have time to focus on the thing that really matters: our customers.
+In that case, we would want the development process to be as efficient as possible, requiring the least amount of work, so that we have ample time to focus on what truly matters: our customers.
 
 This is product engineering.
 
 ![A diagram showing how in product engineering the goal is to spend as much time as possible focused on the customer, and as little as possible on delivery activities](/images/product-engineering-goal.png)
 
-As product engineers we want to solve customers problems and make customers happier, we want to spend our time:
+As product engineers, our goal is to solve our customers' problems and make them happier. We want to spend our time on the following:
 
 1. Serving our customers better today, by:
    - Understanding how we are serving our customers through observability and monitoring
-   - Rapidly responding to and dealing with customer-originated incidents
-   - Improving how we serve our customers through improvements and defect fixes
+   - Responding rapidly to and resolving customer-originated incidents
+   - Improving our customer service through enhancements and defect fixes
 2. Preparing for the customers of tomorrow, by:
-   - Researching what our customers need, want and would love
-   - Conducting experiments to understand the value and viability of ideas
+   - Researching our customers' needs, desires, and preferences
+   - Conducting experiments to evaluate the value and viability of ideas
 
-To achieve this, we must minimise the cognitive load and time taken to develop and deliver software.
+To achieve this, we must minimize the cognitive load and time required for software development and delivery.
 
-**The less work the better**: if automation can do it, it should do it.
+**Less work the better**: If automation can handle a task, it should.
 
-**The less code the better**: ideally no code, and if tools like AI let us write code faster so we can build digital products faster, as a product engineer this is A Good Thing™, not something to be afraid of.
+**Less code the better**: Ideally, we should strive for codeless solutions. If AI tools allow us to write code faster, enabling us to build digital products more efficiently, as product engineers, we should embrace this advancement.
 
-**The less stuff the better**: as few environments as possible, as little infrastructure as possible, everything that sits between us and the customer is something that requires our attention and takes our time away from the customer.
+**Less stuff is better**: We should aim for a minimal number of environments and infrastructure. Anything that stands between us and the customer demands our attention and detracts from customer focus.
 
-**The less waste (blocking) the better**: if it can be done asynchronously it should be, processes must be just-in-time, and we must trust and empower people instead of gate keeping.
+**Less waste (blocking) is better**: Whenever possible, asynchronous processes should be favored, and we must trust and empower individuals rather than gatekeeping.
 
-**The less hand-offs the better**: if one person can do it then it is better than two, if two people can work collaboratively together in parallel it is better than in serial.
+**Less hand-offs are better**: If one person can handle a task, it's more efficient than involving multiple people. Collaborative parallel work surpasses serial work.
 
-**The more adaptible the people the better**: we should hire for intellect over specific skills or knowledge, and ideally we should have no specific roles to avoid pigeonholing (either extrinsic or intrinsic), leaving teams to self-organise.
+**More adaptible individuals are better**: When hiring, we should prioritize intellect over specific skills or knowledge. Ideally, roles should be fluid to prevent pigeonholing, allowing teams to self-organize.
 
-As product engineers, our value is in our ability to understand our customers and solve their problems as efficiently and excellently as possible using whatever tools are available.
+As product engineers, our value lies in our ability to comprehend our customers' needs and solve their problems efficiently and effectively using any available tools.
 
-Today these skills may be expressed through designing or writing or testing or deploying software -- but tomorrow it could be more than of these or something else entirely, designing and writing and testing an AI prompt for instance, or configuring a no-code tool.
+Today, these skills may involve activities such as designing, writing, testing, or deploying software. Tomorrow, it could change to encompass other domains entirely, like designing, writing, and testing an AI prompt, or configuring a no-code tool.
 
-Whatever it is, we have nothing to fear.
+Whatever the future holds, we have nothing to fear.
 
 An alternative title for this article was: _What if we shifted left on everything?_
