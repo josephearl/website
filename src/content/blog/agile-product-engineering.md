@@ -53,5 +53,3 @@ As product engineers, our value lies in our ability to comprehend our customers'
 Today, these skills may involve activities such as designing, writing, testing, or deploying software. Tomorrow, it could change to encompass other domains entirely, like designing, writing, and testing an AI prompt, or configuring a no-code tool.
 
 Whatever the future holds, we have nothing to fear.
-
-An earlier title for this article was: _What if we shifted left on everything?_
