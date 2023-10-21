@@ -13,8 +13,7 @@
     "a11y": "axe http://localhost:3000 http://localhost:3000/blog/",
     "astro": "astro"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "@astrojs/mdx": "1.1.2",
     "@astrojs/rss": "3.0.0",

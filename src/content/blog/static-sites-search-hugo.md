@@ -130,9 +130,9 @@ loadIndexJson(
     searchIndex(),
     registerSearchHandler(
       document.getElementById("search-input"),
-      search(renderSearchResults(document.getElementById("search-results")))
-    )
-  )
+      search(renderSearchResults(document.getElementById("search-results"))),
+    ),
+  ),
 );
 ```
 
