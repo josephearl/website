@@ -15,7 +15,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@astrojs/check": "^0.2.1",
+    "@astrojs/check": "0.2.1",
     "@astrojs/mdx": "1.1.2",
     "@astrojs/rss": "3.0.0",
     "@astrojs/sitemap": "3.0.2",
@@ -23,6 +23,6 @@
     "astro": "3.3.2",
     "prettier": "3.0.3",
     "prettier-plugin-astro": "0.12.0",
-    "typescript": "^5.2.2"
+    "typescript": "5.2.2"
   }
 }
