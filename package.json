@@ -19,7 +19,7 @@
     "astro": "^2.5.5"
   },
   "devDependencies": {
-    "@axe-core/cli": "^4.7.1",
+    "@axe-core/cli": "^4.8.1",
     "prettier": "^2.8.8",
     "prettier-plugin-astro": "^0.9.0"
   }
