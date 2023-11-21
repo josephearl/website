@@ -10,7 +10,7 @@ type Props = CollectionEntry<"blog">["data"];
 const { title, description, image } = Astro.props;
 ---
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <BaseHead title={title} description={description} image={image?.url} />

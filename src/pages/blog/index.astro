@@ -8,14 +8,14 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "@common/consts";
 import { getCollection } from "astro:content";
 
 const posts = (await getCollection("blog")).sort(
-  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 );
 const firstPost = posts[0];
 const morePosts = posts.slice(1);
 const siteTitle = SITE_TITLE + "’s Blog";
 ---
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <BaseHead
