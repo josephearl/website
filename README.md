@@ -12,6 +12,10 @@ Static HTML is generated from the content using [Astro](https://astro.build) and
 
 [Netlify](https://www.netlify.com) detects changes to the Git repository and continually builds and deploys the site, as well as managing SSL certificates with Lets Encrypt.
 
+## Getting started
+
+You will need Node.js 18 or later installed.
+
 ## Commands
 
 All commands are run from the root of the project, from a terminal:
