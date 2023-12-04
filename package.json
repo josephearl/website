@@ -20,7 +20,7 @@
     "@astrojs/rss": "3.0.0",
     "@astrojs/sitemap": "3.0.3",
     "@axe-core/cli": "4.8.1",
-    "astro": "3.6.3",
+    "astro": "3.6.4",
     "prettier": "3.1.0",
     "prettier-plugin-astro": "0.12.2",
     "typescript": "5.3.2"
