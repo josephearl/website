@@ -17,7 +17,7 @@
   "devDependencies": {
     "@astrojs/check": "0.4.1",
     "@astrojs/mdx": "2.1.0",
-    "@astrojs/rss": "4.0.2",
+    "@astrojs/rss": "4.0.4",
     "@astrojs/sitemap": "3.0.5",
     "@axe-core/cli": "4.8.4",
     "astro": "4.2.1",
