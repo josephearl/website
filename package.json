@@ -19,7 +19,7 @@
     "@astrojs/mdx": "2.0.5",
     "@astrojs/rss": "4.0.2",
     "@astrojs/sitemap": "3.0.5",
-    "@axe-core/cli": "4.8.3",
+    "@axe-core/cli": "4.8.4",
     "astro": "4.2.1",
     "prettier": "3.2.4",
     "prettier-plugin-astro": "0.13.0",
