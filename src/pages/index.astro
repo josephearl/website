@@ -3,6 +3,7 @@ import BaseHead from "@components/BaseHead.astro";
 import Header from "@components/Header.astro";
 import Footer from "@components/Footer.astro";
 import { SITE_TITLE, SITE_DESCRIPTION } from "@common/consts";
+const OPEN_TO_WORK = true;
 ---
 
 <!doctype html>
@@ -69,9 +70,15 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "@common/consts";
   <body>
     <Header title={SITE_TITLE} />
     <main>
-      <h2>Not open to work</h2>
+      <h2>{OPEN_TO_WORK ? "Open to work" : "Not open to work"}</h2>
 
-      <p>I'm not currently looking for work.</p>
+      <p>
+        {
+          OPEN_TO_WORK
+            ? "I'm open to new opportunities."
+            : "I'm not currently looking for work."
+        }
+      </p>
 
       <h2>Values</h2>
 
@@ -130,12 +137,6 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "@common/consts";
         solutions for customers and businesses.<br />Responsible for: Hiring and
         managing multiple mobile teams, providing mobile development, testing
         and release capabilities across iOS & Android. Hands-on.
-      </p>
-
-      <h3>2011-2012 Android Developer @ BirdGuides</h3>
-      <p>
-        Building the next generation of apps for bird watchers.<br />Responsible
-        for: Developing & releasing Android apps. Hands-on.
       </p>
 
       <h2>Skills</h2>
