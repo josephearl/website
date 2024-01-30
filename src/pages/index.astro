@@ -3,7 +3,7 @@ import BaseHead from "@components/BaseHead.astro";
 import Header from "@components/Header.astro";
 import Footer from "@components/Footer.astro";
 import { SITE_TITLE, SITE_DESCRIPTION } from "@common/consts";
-const OPEN_TO_WORK = true;
+const isOpenToWork = true;
 ---
 
 <!doctype html>
@@ -70,238 +70,257 @@ const OPEN_TO_WORK = true;
   <body>
     <Header title={SITE_TITLE} />
     <main>
-      <h2>{OPEN_TO_WORK ? "Open to work" : "Not open to work"}</h2>
+      <section class="no-print">
+        <h2>{isOpenToWork ? "Open to work" : "Not open to work"}</h2>
 
-      <p>
-        {
-          OPEN_TO_WORK
-            ? "I'm open to new opportunities."
-            : "I'm not currently looking for work."
-        }
-      </p>
+        <p>
+          {
+            isOpenToWork
+              ? "I'm open to new opportunities."
+              : "I'm not currently looking for work."
+          }
+        </p>
+      </section>
 
-      <h2>Values</h2>
+      <section>
+        <h2>Values</h2>
 
-      <p>
-        Through 12 years of professional experience in software delivery and
-        leadership roles, I have found that good software is delivered through
-        close customer collaboration and a happy workforce. Guided by the Lean
-        and Agile philosophies, I continuously seek opportunities to learn and
-        improve. My commitment to continuous improvement and respect for people
-        fosters an environment that fuels innovation, collaboration, and growth.
-        I firmly believe that empathy towards customers is essential for all
-        team members, as is the ability to respond quickly to their demands
-        through practices like DevOps and continuous deployment.
-      </p>
+        <p>
+          Through 12 years of professional experience in software delivery and
+          leadership roles, I have found that good software is delivered through
+          close customer collaboration and a happy workforce. Guided by the Lean
+          and Agile philosophies, I continuously seek opportunities to learn and
+          improve. My commitment to continuous improvement and respect for
+          people fosters an environment that fuels innovation, collaboration,
+          and growth. I firmly believe that empathy towards customers is
+          essential for all team members, as is the ability to respond quickly
+          to their demands through practices like DevOps and continuous
+          deployment.
+        </p>
+      </section>
 
-      <h2>Experience</h2>
+      <section>
+        <h2>Experience</h2>
 
-      <h3>2023-Now Principal Software Engineer @ Motability Operations</h3>
-      <p>
-        Delivering the Motability Scheme online account to our 700,000+
-        customers allowing them to manage their lease online. Improving software
-        delivery and engineering practices across our digital product teams.
-        <br />Responsible for: Leading teams, coaching, technical architecture
-        and stack, operations, innovation. Hands-on.
-      </p>
+        <h3>2023-Now Principal Software Engineer @ Motability Operations</h3>
+        <p>
+          Delivering the Motability Scheme online account to our 700,000+
+          customers allowing them to manage their lease online. Improving
+          software delivery and engineering practices across our digital product
+          teams.
+          <br />Responsible for: Leading teams, coaching, technical architecture
+          and stack, operations, innovation. Hands-on.
+        </p>
 
-      <h3>2022-2023 Principal Technical Consultant @ Waracle</h3>
-      <p>
-        Strategy and innovation for some of the UK's most pioneering clean tech
-        startups and largest financial services and energy providers.<br
-        />Responsible for: Helping to grow account relationships, developing the
-        brand as a leader in thought leadership, leading consulting engagements,
-        supporting sales &amp; pre-sales.
-      </p>
+        <h3>2022-2023 Principal Technical Consultant @ Waracle</h3>
+        <p>
+          Strategy and innovation for some of the UK's most pioneering clean
+          tech startups and largest financial services and energy providers.<br
+          />Responsible for: Helping to grow account relationships, developing
+          the brand as a leader in thought leadership, leading consulting
+          engagements, supporting sales &amp; pre-sales.
+        </p>
 
-      <h3>2016-2022 Lead Technical Consultant @ Thoughtworks</h3>
-      <p>
-        Large scale technology modernisation, capability development and digital
-        product development for some of UK's leading groceries, mobility, legal
-        and business solutions brands.<br />Responsible for: Leading teams,
-        performance reviews and coaching, technical architecture and stack,
-        operations. Hands-on.
-      </p>
+        <h3>2016-2022 Lead Technical Consultant @ Thoughtworks</h3>
+        <p>
+          Large scale technology modernisation, capability development and
+          digital product development for some of UK's leading groceries,
+          mobility, legal and business solutions brands.<br />Responsible for:
+          Leading teams, performance reviews and coaching, technical
+          architecture and stack, operations. Hands-on.
+        </p>
 
-      <h3>2015-2016 Chief Technology Officer @ Lenio</h3>
-      <p>
-        Keeping the spirit of giving spare change to charities alive in a
-        digital and cashless society by automatically rounding-up purchases
-        through banking integrations.<br />Responsible for: Hiring and managing
-        technology staff, delivering investment prototypes. Hands-on.
-      </p>
+        <h3>2015-2016 Chief Technology Officer @ Lenio</h3>
+        <p>
+          Keeping the spirit of giving spare change to charities alive in a
+          digital and cashless society by automatically rounding-up purchases
+          through banking integrations.<br />Responsible for: Hiring and
+          managing technology staff, delivering investment prototypes. Hands-on.
+        </p>
 
-      <h3>2012-2015 Head of Mobile @ Powa Technologies</h3>
-      <p>
-        Delivering innovative omni-channel retail experiences and mobile payment
-        solutions for customers and businesses.<br />Responsible for: Hiring and
-        managing multiple mobile teams, providing mobile development, testing
-        and release capabilities across iOS & Android. Hands-on.
-      </p>
+        <h3>2012-2015 Head of Mobile @ Powa Technologies</h3>
+        <p>
+          Delivering innovative omni-channel retail experiences and mobile
+          payment solutions for customers and businesses.<br />Responsible for:
+          Hiring and managing multiple mobile teams, providing mobile
+          development, testing and release capabilities across iOS & Android.
+          Hands-on.
+        </p>
+      </section>
 
-      <h2>Skills</h2>
+      <section>
+        <h2>Skills</h2>
 
-      <div class="skills">
-        <section>
-          <h3>Management &amp; Leadership</h3>
-          <div>
-            <dl>
-              <dt>People first</dt>
-              <dd>121s</dd>
-              <dd>Coaching & mentoring</dd>
-              <dd>Wellbeing & culture</dd>
-              <dd>Performance reviews</dd>
-              <dd>Interviews</dd>
-              <dd>DevEx</dd>
-            </dl>
+        <div class="skills">
+          <section>
+            <h3>Management &amp; Leadership</h3>
+            <div>
+              <dl>
+                <dt>People first</dt>
+                <dd>121s</dd>
+                <dd>Coaching & mentoring</dd>
+                <dd>Wellbeing & culture</dd>
+                <dd>Performance reviews</dd>
+                <dd>Interviews</dd>
+                <dd>DevEx</dd>
+              </dl>
 
-            <dl>
-              <dt>Lean management</dt>
-              <dd>OKRs</dd>
-              <dd>Engineering management</dd>
-              <dd>Lean product management</dd>
-              <dd>Team modelling & financial forecasting</dd>
-              <dd>Job requirements</dd>
-            </dl>
+              <dl>
+                <dt>Lean management</dt>
+                <dd>OKRs</dd>
+                <dd>Engineering management</dd>
+                <dd>Lean product management</dd>
+                <dd>Team modelling & financial forecasting</dd>
+                <dd>Job requirements</dd>
+              </dl>
 
-            <dl>
-              <dt>Technical leadership</dt>
-              <dd>Technical strategy</dd>
-              <dd>Solution selection</dd>
-              <dd>Presentations</dd>
-            </dl>
-          </div>
-        </section>
+              <dl>
+                <dt>Technical leadership</dt>
+                <dd>Technical strategy</dd>
+                <dd>Solution selection</dd>
+                <dd>Presentations</dd>
+              </dl>
+            </div>
+          </section>
 
-        <section>
-          <h3>Practices & Techniques</h3>
-          <div>
-            <dl>
-              <dt>Customer focused</dt>
-              <dd>Product engineering</dd>
-              <dd>Customer support</dd>
-              <dd>Incidents, On call</dd>
-              <dd>Analytics, Metrics, KPIs</dd>
-            </dl>
+          <section>
+            <h3>Practices & Techniques</h3>
+            <div>
+              <dl>
+                <dt>Customer focused</dt>
+                <dd>Product engineering</dd>
+                <dd>Customer support</dd>
+                <dd>Incidents, On call</dd>
+                <dd>Analytics, Metrics, KPIs</dd>
+              </dl>
 
-            <dl>
-              <dt>Shifting left</dt>
-              <dd>TDD, TBD, Pair programming</dd>
-              <dd>DevSecOps, FinOps</dd>
-              <dd>Separation of deployment & release, Feature toggles</dd>
-              <dd>Testing in production</dd>
-            </dl>
+              <dl>
+                <dt>Shifting left</dt>
+                <dd>TDD, TBD, Pair programming</dd>
+                <dd>DevSecOps, FinOps</dd>
+                <dd>Separation of deployment & release, Feature toggles</dd>
+                <dd>Testing in production</dd>
+              </dl>
 
-            <dl>
-              <dt>Continuous delivery</dt>
-              <dd>CI/CD</dd>
-              <dd>Continuous deployments</dd>
-              <dd>Infrastructure as code</dd>
-              <dd>Compliance as code</dd>
-              <dd>GitOps</dd>
-            </dl>
+              <dl>
+                <dt>Continuous delivery</dt>
+                <dd>CI/CD</dd>
+                <dd>Continuous deployments</dd>
+                <dd>Infrastructure as code</dd>
+                <dd>Compliance as code</dd>
+                <dd>GitOps</dd>
+              </dl>
 
-            <dl>
-              <dt>Agile</dt>
-              <dd>Inception, Discovery, Planning, Retrospectives, Standups</dd>
-              <dd>Event storming</dd>
-              <dd>Lightweight threat modelling</dd>
-            </dl>
-          </div>
-        </section>
+              <dl>
+                <dt>Agile</dt>
+                <dd>
+                  Inception, Discovery, Planning, Retrospectives, Standups
+                </dd>
+                <dd>Event storming</dd>
+                <dd>Lightweight threat modelling</dd>
+              </dl>
+            </div>
+          </section>
 
-        <section>
-          <h3>Technology</h3>
-          <div>
-            <dl>
-              <dt>Generalist</dt>
-              <dd>
-                Java, TypeScript, C#, Kotlin, Swift, Scala, Bash, Willing to
-                learn
-              </dd>
-            </dl>
+          <section>
+            <h3>Technology</h3>
+            <div>
+              <dl>
+                <dt>Generalist</dt>
+                <dd>
+                  Java, TypeScript, C#, Kotlin, Swift, Scala, Bash, Willing to
+                  learn
+                </dd>
+              </dl>
 
-            <dl>
-              <dt>Full stack</dt>
-              <dd>Backend: Spring, Quarkus, Express, ASP.NET Core</dd>
-              <dd>Responsive Web: React, Next.js, Astro</dd>
-              <dd>Mobile: iOS, Android</dd>
-            </dl>
+              <dl>
+                <dt>Full stack</dt>
+                <dd>Backend: Spring, Quarkus, Express, ASP.NET Core</dd>
+                <dd>Responsive Web: React, Next.js, Astro</dd>
+                <dd>Mobile: iOS, Android</dd>
+              </dl>
 
-            <dl>
-              <dt>Evolutionary architecture</dt>
-              <dd>
-                DDD, Micro services, Micro frontends, Mobile micro features,
-                Serverless, Messaging, Stream processing
-              </dd>
-              <dd>ADRs</dd>
-            </dl>
+              <dl>
+                <dt>Evolutionary architecture</dt>
+                <dd>
+                  DDD, Micro services, Micro frontends, Mobile micro features,
+                  Serverless, Messaging, Stream processing
+                </dd>
+                <dd>ADRs</dd>
+              </dl>
 
-            <dl>
-              <dt>Cloud platforms</dt>
-              <dd>AWS, Kubernetes, OpenShift, Docker, Lambda</dd>
-            </dl>
+              <dl>
+                <dt>Cloud platforms</dt>
+                <dd>AWS, Kubernetes, OpenShift, Docker, Lambda</dd>
+              </dl>
 
-            <dl>
-              <dt>Operations</dt>
-              <dd>Production deployments</dd>
-              <dd>Monitoring & alerting</dd>
-              <dd>Blameless post-mortems</dd>
-              <dd>Operational excellence</dd>
-            </dl>
-          </div>
-        </section>
-      </div>
+              <dl>
+                <dt>Operations</dt>
+                <dd>Production deployments</dd>
+                <dd>Monitoring & alerting</dd>
+                <dd>Blameless post-mortems</dd>
+                <dd>Operational excellence</dd>
+              </dl>
+            </div>
+          </section>
+        </div>
+      </section>
 
-      <h2>Books that have influenced my thinking</h2>
+      <section>
+        <h2>Books that have influenced my thinking</h2>
 
-      <p>
-        <a href="https://www.radicalcandor.com/the-book/" target="_blank"
-          >Radical Candor</a
-        >, <a
-          href="https://management30.com/books/managing-for-happiness/"
-          target="_blank">Managing for Happiness</a
-        >, <a
-          href="https://simonsinek.com/books/leaders-eat-last/"
-          target="_blank">Leaders Eat Last</a
-        >, <a
-          href="https://www.superteams.org/www.superteams.org/index.html"
-          target="_blank">Superteams</a
-        >, <a
-          href="https://www.oreilly.com/library/view/lean-enterprise/9781491946527/"
-          target="_blank">Lean Enterprise</a
-        >,
-        <a href="https://itrevolution.com/product/accelerate/" target="_blank"
-          >Accelerate</a
-        >, <a href="https://projecttoproduct.org" target="_blank"
-          >Project to Product</a
-        >, <a href="https://teamtopologies.com" target="_blank"
-          >Team Topologies</a
-        >, <a
-          href="https://itrevolution.com/product/the-phoenix-project/"
-          target="_blank">The Phoenix Project</a
-        >,
-        <a
-          href="https://www.goodreads.com/book/show/113934.The_Goal"
-          target="_blank">The Goal</a
-        >, <a
-          href="https://press.princeton.edu/books/paperback/9780691164090/qed"
-          target="_blank">QED</a
-        >
-      </p>
+        <p>
+          <a href="https://www.radicalcandor.com/the-book/" target="_blank"
+            >Radical Candor</a
+          >, <a
+            href="https://management30.com/books/managing-for-happiness/"
+            target="_blank">Managing for Happiness</a
+          >, <a
+            href="https://simonsinek.com/books/leaders-eat-last/"
+            target="_blank">Leaders Eat Last</a
+          >, <a
+            href="https://www.superteams.org/www.superteams.org/index.html"
+            target="_blank">Superteams</a
+          >, <a
+            href="https://www.oreilly.com/library/view/lean-enterprise/9781491946527/"
+            target="_blank">Lean Enterprise</a
+          >,
+          <a href="https://itrevolution.com/product/accelerate/" target="_blank"
+            >Accelerate</a
+          >, <a href="https://projecttoproduct.org" target="_blank"
+            >Project to Product</a
+          >, <a href="https://teamtopologies.com" target="_blank"
+            >Team Topologies</a
+          >, <a
+            href="https://itrevolution.com/product/the-phoenix-project/"
+            target="_blank">The Phoenix Project</a
+          >,
+          <a
+            href="https://www.goodreads.com/book/show/113934.The_Goal"
+            target="_blank">The Goal</a
+          >, <a
+            href="https://press.princeton.edu/books/paperback/9780691164090/qed"
+            target="_blank">QED</a
+          >
+        </p>
+      </section>
 
-      <h2>Education</h2>
+      <section>
+        <h2>Education</h2>
 
-      <h3>2006-2010 MSci Theoretical Physics @Imperial College London</h3>
-      <p>Studying the universe and gravity with computational methods.</p>
+        <h3>2006-2010 MSci Theoretical Physics @Imperial College London</h3>
+        <p>Studying the universe and gravity with computational methods.</p>
+      </section>
 
-      <hr />
+      <section class="no-print">
+        <hr />
 
-      <p>
-        <a href="/joseph-earl-profile.pdf" download
-          >Download this page as a PDF</a
-        >
-      </p>
+        <p>
+          <a href="/joseph-earl-resume.pdf" download
+            >Download this page as a PDF</a
+          >
+        </p>
+      </section>
     </main>
     <Footer />
   </body>

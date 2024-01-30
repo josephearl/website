@@ -22,7 +22,38 @@ const HeaderTag = isHome ? "h1" : "h2";
     }
     {SITE_TITLE}
   </HeaderTag>
-  <nav>
+  {
+    isHome && (
+      <section class="contact only-print" style="display: none">
+        <dl>
+          <dt>Telephone</dt>
+          <dd>
+            <a href="tel:+447792444822">07792444822</a>
+          </dd>
+
+          <dt>Email</dt>
+          <dd>
+            <a href="mailto:hello@josephearl.co.uk">hello@josephearl.co.uk</a>
+          </dd>
+
+          <dt>LinkedIn</dt>
+          <dd>
+            <a href="https://uk.linkedin.com/in/josephwearl" target="_blank">
+              uk.linkedin.com/in/josephwearl
+            </a>
+          </dd>
+
+          <dt>GitHub</dt>
+          <dd>
+            <a href="https://github.com/josephearl/" target="_blank">
+              github.com/josephearl{" "}
+            </a>
+          </dd>
+        </dl>
+      </section>
+    )
+  }
+  <nav class="no-print">
     <HeaderLink href="/">Profile</HeaderLink>
     <HeaderLink href="/blog">Blog</HeaderLink>
     <HeaderLink href="https://uk.linkedin.com/in/josephwearl" target="_blank">
@@ -45,5 +76,18 @@ const HeaderTag = isHome ? "h1" : "h2";
     border-radius: 50%;
     vertical-align: text-top;
     margin-right: 0.4em;
+  }
+  .contact dl {
+    margin: 0;
+  }
+  .contact dl dt {
+    float: left;
+    margin-right: 0.2em;
+  }
+  .contact dl dt::after {
+    content: ":";
+  }
+  .contact dl dd {
+    margin: 0;
   }
 </style>

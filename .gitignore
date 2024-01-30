@@ -1,7 +1,12 @@
 # build output
 dist/
+
 # generated types
 .astro/
+.vite/
+
+# generated public files
+public/joseph-earl-resume.pdf
 
 # dependencies
 node_modules/

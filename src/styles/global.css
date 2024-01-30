@@ -116,3 +116,15 @@ hr {
   border: 0;
   margin: 1rem 0;
 }
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  .only-print {
+    display: block !important;
+  }
+}
+abbr {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}

@@ -1,4 +1,6 @@
 # Global settings applied to the whole site.
+[[plugins]]
+  package = "netlify-plugin-playwright-cache"
 [build]
   command = "npm run build"
   publish = "dist"
