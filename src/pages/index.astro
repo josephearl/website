@@ -4,6 +4,7 @@ import Header from "@components/Header.astro";
 import Footer from "@components/Footer.astro";
 import { SITE_TITLE, SITE_DESCRIPTION } from "@common/consts";
 const isOpenToWork = true;
+const yearsWorking = new Date().getFullYear() - 2011;
 ---
 
 <!doctype html>
@@ -86,15 +87,14 @@ const isOpenToWork = true;
         <h2>Values</h2>
 
         <p>
-          Through 14 years of professional experience in software delivery and
-          leadership roles, I have found that good software is delivered through
+          Through {yearsWorking} years of professional experience in software delivery
+          and leadership roles, I have found that good software is delivered through
           close customer collaboration and a happy workforce. Guided by the Lean
           and Agile philosophies, I continuously seek opportunities to learn and
-          improve. My respect for people fosters an environment that fuels
-          innovation, collaboration, and growth. I believe the ability to
-          respond quickly to customer demands through clean, easily maintainable
-          code and practices like DevOps and continuous deployment is the key to
-          business success.
+          improve. My respect for people fosters an environment that fuels innovation,
+          collaboration, and growth. I believe the ability to respond quickly to
+          customer demands through clean, easily maintainable code and practices
+          like DevOps and continuous deployment is the key to business success.
         </p>
       </section>
 
