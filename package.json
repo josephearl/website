@@ -24,7 +24,7 @@
     "@axe-core/cli": "4.9.1",
     "astro": "4.11.5",
     "netlify-plugin-playwright-cache": "^0.0.1",
-    "playwright": "^1.44.1",
+    "playwright": "^1.45.1",
     "prettier": "3.3.3",
     "prettier-plugin-astro": "0.14.0",
     "start-server-and-test": "^2.0.4",
