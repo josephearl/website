@@ -21,7 +21,7 @@
     "@astrojs/mdx": "3.1.6",
     "@astrojs/rss": "4.0.7",
     "@astrojs/sitemap": "3.1.6",
-    "@axe-core/cli": "4.9.1",
+    "@axe-core/cli": "4.10.0",
     "astro": "4.15.6",
     "netlify-plugin-playwright-cache": "^0.0.1",
     "playwright": "^1.46.0",
