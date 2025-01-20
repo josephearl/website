@@ -18,7 +18,7 @@
   },
   "devDependencies": {
     "@astrojs/check": "0.9.4",
-    "@astrojs/mdx": "4.0.2",
+    "@astrojs/mdx": "4.0.7",
     "@astrojs/rss": "4.0.9",
     "@astrojs/sitemap": "3.2.1",
     "@axe-core/cli": "4.10.1",
