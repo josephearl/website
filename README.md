@@ -14,7 +14,7 @@ Static HTML is generated from the content using [Astro](https://astro.build) and
 
 ## Getting started
 
-You will need Node.js 18 or later installed.
+You will need Node.js 20 or later installed.
 
 ## Commands
 
